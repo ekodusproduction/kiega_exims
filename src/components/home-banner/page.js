@@ -1,5 +1,13 @@
-export default function HomeBanner(){
+import './home-banner.css'; 
+
+export default function HomeBanner() {
     return (
-        <h1>Home Banner</h1>
-    )
+        <div className="banner-container">
+            <div className="big-logo-area">
+                <img src="/assets/big-logo.png" alt="kiega logo big" />
+            </div>
+            <div className="fruits-slider-container">
+            </div>
+        </div>
+    );
 }
