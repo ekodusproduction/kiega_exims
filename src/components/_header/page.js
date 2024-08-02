@@ -9,7 +9,17 @@ export default function Header(){
                         <img src="/assets/small-logo.png" alt="kiega logo"/>
                     </div>
                     <div className='header-nav-menu'>
-                        <i className='bx bx-menu'></i>
+                        <div className="dropdown">
+                            <a className="btn btn-default" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i className="bx bx-menu"></i>
+                            </a>
+
+                            <ul className="dropdown-menu">
+                                <li><a className="dropdown-item" href="#">Action</a></li>
+                                <li><a className="dropdown-item" href="#">Another action</a></li>
+                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -5,8 +5,7 @@ import './home-banner.css';
 export default function HomeBanner() {
 
     useEffect(() => {
-        const intervalId = setInterval(() => {
-          if (window.bootstrap && window.bootstrap.Carousel) {
+        if (typeof window !== "undefined" && window.bootstrap) {
             const carouselElement = document.querySelector('#carouselExampleAutoplaying');
             if (carouselElement) {
               new window.bootstrap.Carousel(carouselElement, {
@@ -14,9 +13,7 @@ export default function HomeBanner() {
                 ride: 'carousel',
               });
             }
-            clearInterval(intervalId);
           }
-        }, 100);
     }, []);
     
     return (
@@ -38,14 +35,14 @@ export default function HomeBanner() {
                             <img src="/assets/rice-img-1.png" className="d-block w-100" alt="..." />
                         </div>
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
                     <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Next</span>
-                    </button>
+                    </button> */}
                     </div>
                 </div>
             </div>

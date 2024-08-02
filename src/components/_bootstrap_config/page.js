@@ -1,10 +1,16 @@
 "use client";
 import React, { useEffect } from "react";
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+
 
 export default function BootstrapConfig(){
 
-    useEffect(() => {require('bootstrap/dist/js/bootstrap.min.js')},[])
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+          require('bootstrap/dist/js/bootstrap.min.js'); // Ensure it's only required on the client side
+        }
+    }, []);
 
     return null;
 }

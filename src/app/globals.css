@@ -78,3 +78,7 @@
     font-weight: 900;
     font-style: italic;
   }
+
+  .dropdown-menu {
+    z-index: 1050; /* Ensure it is above other elements */
+  }
