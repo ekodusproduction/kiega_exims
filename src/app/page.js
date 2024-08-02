@@ -1,8 +1,8 @@
 import Image from "next/image";
-import HomeBanner from "@/components/home-banner/page";
+import HomePage from "@/components/home/page";
 
 export default function Home() {
   return (
-      <HomeBanner/>
+    <HomePage/>
   );
 }
