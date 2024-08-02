@@ -7,6 +7,9 @@ export default function HomeBanner() {
                 <img src="/assets/big-logo.png" alt="kiega logo big" />
             </div>
             <div className="fruits-slider-container">
+                <div className='fruite-slider-img-container'>
+                    <img src="/assets/fruit-img-1.png" alt="kiega logo big" />
+                </div>
             </div>
         </div>
     );
