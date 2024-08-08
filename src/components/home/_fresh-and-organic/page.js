@@ -1,6 +1,8 @@
 import './fresh-and-organic.css';
+import FruitSlider from './_fruit-slider/page';
 
 export default function FreshAndOrganic(){
+
     return (
         <>
             <div className='fresh-and-organic section-divider'>
@@ -23,7 +25,10 @@ export default function FreshAndOrganic(){
                         <h2>Khasi Mandarin</h2>
                     </div>
                 </div>
-                
+
+                <div className='fruit-slider-container'>
+                    <FruitSlider />
+                </div>
             </div>
         </>
     )

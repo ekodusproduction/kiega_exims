@@ -1,3 +1,7 @@
+.fresh-and-organic {
+    position:relative;
+}
+
 .fresh-and-organic .banner img{
     width:100%;
     max-height:400px;
@@ -52,4 +56,10 @@
     font-weight:700;
     color:#1B1464;
     margin-right:120px;
+}
+
+.fresh-and-organic .fruit-slider-container{
+    position:absolute;
+    top:0;
+    right:10%;
 }
