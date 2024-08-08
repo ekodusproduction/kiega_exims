@@ -150,10 +150,10 @@ export default function FruitSlider(){
     
         // Initialize the slider
         $("#slider").stack_slider({
-          autoPlaySpeed: 6000,
-          autoPlay: false,
+          autoPlaySpeed: 4000,
+          autoPlay: true,
           dots: false,
-          arrows: true,
+          arrows: false,
           drag: true,
           direction: "vertical"
         });
@@ -166,29 +166,52 @@ export default function FruitSlider(){
                 <div className="slider-wrap">
                 <div id="intro-slider">
                     <div className="intro-slide" data-classname="1" data-position="1">
-                    <div className="slide-overlay"></div>
-                    <div className="poster-box" style={{background:"url(https://yudiz.com/codepen/stack-slider/poster-1.jpg) center center / cover no-repeat"}}>
-                    </div>
+                        <div className="slide-overlay"></div>
+                        <div className="poster-box" style={{background:"url(assets/khasi-mandarin.png) center center / 500px 500px no-repeat"}}>
+                            <div className='khasi-mandarin'>
+                                <h2>Khasi Mandarin</h2>
+                            </div>
+                        </div>
                     </div>
                     <div className="intro-slide" data-classname="2" data-position="2">
-                    <div className="slide-overlay"></div>
-                    <div className="poster-box" style={{background:"url(https://yudiz.com/codepen/stack-slider/poster-2.jpg) center center / cover no-repeat"}}>
-                    </div>
+                        <div className="slide-overlay"></div>
+                        <div className="poster-box" style={{background:"url(assets/pomegranate.png) center center / cover no-repeat"}}>
+                            <div className='khasi-mandarin'>
+                                <h2>Pomegranate</h2>
+                            </div>
+                        </div>
                     </div>
                     <div className="intro-slide" data-classname="3" data-position="3">
-                    <div className="slide-overlay"></div>
-                    <div className="poster-box" style={{background:"url(https://yudiz.com/codepen/stack-slider/poster-3.jpg) center center / cover no-repeat"}}>
-                    </div>
+                        <div className="slide-overlay"></div>
+                        <div className="poster-box" style={{background:"url(assets/watermelon.png) center center / cover no-repeat"}}>
+                            <div className='khasi-mandarin'>
+                                <h2>Watermelon</h2>
+                            </div>
+                        </div>
                     </div>
                     <div className="intro-slide" data-classname="4" data-position="4">
-                    <div className="slide-overlay"></div>
-                    <div className="poster-box" style={{background:"url(https://yudiz.com/codepen/stack-slider/poster-4.jpg) center center / cover no-repeat"}}>
-                    </div>
+                        <div className="slide-overlay"></div>
+                        <div className="poster-box" style={{background:"url(assets/musk-melon.png) center center / cover no-repeat"}}>
+                            <div className='khasi-mandarin'>
+                                <h2>Musk Melon</h2>
+                            </div>
+                        </div>
                     </div>
                     <div className="intro-slide" data-classname="5" data-position="5">
-                    <div className="slide-overlay"></div>
-                    <div className="poster-box" style={{background:"url(https://yudiz.com/codepen/stack-slider/poster-5.jpg) center center / cover no-repeat"}}>
+                        <div className="slide-overlay"></div>
+                        <div className="poster-box" style={{background:"url(assets/mango-poster.png) center center / cover no-repeat"}}>
+                            <div className='khasi-mandarin'>
+                                <h2>Mango</h2>
+                            </div>
+                        </div>
                     </div>
+                    <div className="intro-slide" data-classname="6" data-position="6">
+                        <div className="slide-overlay"></div>
+                        <div className="poster-box" style={{background:"url(assets/jackfruit.png) center center / cover no-repeat"}}>
+                            <div className='khasi-mandarin'>
+                                <h2>Jackfruit</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <span id="slider-next">

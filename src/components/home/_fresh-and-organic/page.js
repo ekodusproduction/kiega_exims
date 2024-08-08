@@ -21,9 +21,7 @@ export default function FreshAndOrganic(){
                         <button className='btn btn-primary btn-md' style={{background:"#1B1464", border:"1px solid #1B1464"}}>Explore full range</button>
                         <button className='btn btn-success btn-md my-3 mx-3' style={{background:"#37C609", border:"1px solid #37C609"}}>Explore full range</button>
                     </div>
-                    <div className='khasi-mandarin'>
-                        <h2>Khasi Mandarin</h2>
-                    </div>
+                    
                 </div>
 
                 <div className='fruit-slider-container'>
