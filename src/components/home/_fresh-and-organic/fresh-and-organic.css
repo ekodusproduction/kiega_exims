@@ -1,0 +1,55 @@
+.fresh-and-organic .banner img{
+    width:100%;
+    max-height:400px;
+}
+.fresh-and-organic .banner{
+   position:relative;
+}
+
+.fresh-and-organic .banner .main-title{
+    position: absolute;
+    top:15%;
+    left:8%;
+}
+
+.fresh-and-organic .banner .main-title h2{
+    font-size:70px;
+    font-weight:900;
+    color:white;
+}
+
+.fresh-and-organic .banner .main-title .sub-title h6{
+    color:white;
+    font-size:14px;
+    font-weight: 500;
+}
+
+.explore-full-range-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explore-full-range-button{
+    margin-left:120px;
+    
+}
+
+.explore-full-range-button button{
+    border-radius:20px;
+    font-size:14px;
+}
+
+.explore-full-range-button h5{
+    font-size:16px;
+    font-weight:600;
+    color:#1B1464;
+}
+
+.khasi-mandarin h2{
+    font-size:50px;
+    font-weight:700;
+    color:#1B1464;
+    margin-right:120px;
+}

@@ -1,5 +1,6 @@
 import Home from "@/app/page"
 import HomeBanner from "./_home-banner/page"
+import FreshAndOrganic from "./_fresh-and-organic/page";
 
 export const metadata = {
       title:"Home Page | Kiega Exims",
@@ -9,6 +10,10 @@ export const metadata = {
 export default function HomePage(){
 
     return (
-        <HomeBanner />
+        <>
+            <HomeBanner/>
+            <FreshAndOrganic />
+        </>
+        
     )
 }

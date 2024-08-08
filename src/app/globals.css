@@ -82,3 +82,7 @@
   .dropdown-menu {
     z-index: 1050; /* Ensure it is above other elements */
   }
+
+  .section-divider{
+    margin-bottom:100px;
+  }

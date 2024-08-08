@@ -20,3 +20,31 @@
     height:auto;
     max-width:720px;
 }
+
+.floating-banner-fruits .mango-img{
+    position:absolute;
+    left:45%;
+}
+.floating-banner-fruits .mango-img img{
+    max-height:120px;
+    animation: up-down 1.4s infinite ease-in-out alternate;
+}
+
+.floating-banner-fruits .lemon-img{
+    position:absolute;
+    top:80%;
+    left:5%;
+}
+.floating-banner-fruits .lemon-img img{
+    max-height:120px;
+    animation: up-down 1.4s infinite ease-in-out alternate;
+}
+
+@keyframes up-down{
+    from{
+      transform: translatey(0px);
+    }
+    to{
+      transform: translatey(-20px);
+    }
+}
