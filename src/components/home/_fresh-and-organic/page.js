@@ -1,5 +1,4 @@
 import './fresh-and-organic.css';
-import FruitSlider from './_fruit-slider/page';
 import FruiteStatic from './_fruit-static/page';
 
 export default function FreshAndOrganic(){

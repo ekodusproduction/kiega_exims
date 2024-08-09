@@ -95,7 +95,7 @@
 @keyframes slide {
     0% {
         opacity: 0;
-        transform: scale(0.5) translateX(-50%);
+        transform: scale(0.5) translateX(50%);
       
     }
     10% {
@@ -110,7 +110,7 @@
     }
     100% {
         opacity: 0;
-        transform: scale(1.5) translateX(50%);
+        transform: scale(1.5) translateZ(-50%);
         
     }
 }
