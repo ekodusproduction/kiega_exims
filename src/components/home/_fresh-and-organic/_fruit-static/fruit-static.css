@@ -1,0 +1,116 @@
+.fruit-img-1{
+    position: absolute;
+    z-index: 10;
+    top: 0%;
+    left: 35%;
+    animation: slide 8s infinite;
+    animation-delay: 0s;
+}
+
+.fruit-img-1 img{
+    max-height:500px;
+}
+
+.fruit-img-2{
+    position: absolute;
+    top: 26%;
+    left: 54%;
+    z-index: 9;
+    animation: slide 8s infinite;
+    animation-delay: 1s;
+}
+.fruit-img-2 img{
+    max-height:200px;
+}
+
+.fruit-img-3{
+    position: absolute;
+    top: 13%;
+    left: 59%;
+    z-index: 8;
+    animation: slide 8s infinite;
+    animation-delay: 2s;
+}
+.fruit-img-3 img{
+    max-height:240px;
+}
+
+.fruit-img-4{
+    position: absolute;
+    top: 12%;
+    left: 64%;
+    z-index: 7;
+    animation: slide 8s infinite;
+    animation-delay: 3s;
+}
+.fruit-img-4 img{
+    max-height:230px;
+}
+
+.fruit-img-5{
+    position: absolute;
+    top: 17%;
+    left: 69%;
+    z-index: 6;
+    animation: slide 8s infinite;
+    animation-delay: 4s;
+}
+.fruit-img-5 img{
+    max-height:180px;
+}
+.fruit-img-6{
+    position: absolute;
+    top: 19%;
+    left: 74%;
+    z-index: 5;
+    animation: slide 8s infinite;
+    animation-delay: 5s;
+}
+.fruit-img-6 img{
+    max-height:140px;
+}
+.fruit-img-7{
+    position: absolute;
+    top: 19%;
+    left: 78%;
+    z-index: 4;
+    animation: slide 8s infinite;
+    animation-delay: 6s;
+}
+.fruit-img-7 img{
+    max-height:110px;
+}
+.fruit-img-8{
+    position: absolute;
+    top: 16%;
+    left: 80%;
+    z-index: 3;
+    animation: slide 8s infinite;
+    animation-delay: 7s;
+}
+.fruit-img-8 img{
+    max-height:120px;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translateX(-50%);
+      
+    }
+    10% {
+        opacity: 1;
+        transform: scale(1) translateX(0);
+       
+    }
+    90% {
+        opacity: 1;
+        transform: scale(1) translateX(0);
+        
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.5) translateX(50%);
+        
+    }
+}

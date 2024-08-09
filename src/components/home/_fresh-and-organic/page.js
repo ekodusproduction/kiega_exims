@@ -1,5 +1,6 @@
 import './fresh-and-organic.css';
 import FruitSlider from './_fruit-slider/page';
+import FruiteStatic from './_fruit-static/page';
 
 export default function FreshAndOrganic(){
 
@@ -25,7 +26,8 @@ export default function FreshAndOrganic(){
                 </div>
 
                 <div className='fruit-slider-container'>
-                    <FruitSlider />
+                    {/* <FruitSlider /> */}
+                    <FruiteStatic />
                 </div>
             </div>
         </>
