@@ -42,20 +42,34 @@
 
 .farming-organic-container .content-area .text-button-area .button-groups{
     margin-top:30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .farming-organic-container .content-area .text-button-area .button-groups .natural{
     margin-right:30px;
     background: #070044;
     color:white;
-    font-size: 14px;
+    font-size: 15px;
     padding:8px 15px 8px 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .farming-organic-container .content-area .text-button-area .button-groups .organic{
     background: #068B03;
     color:white;
-    font-size: 14px;
+    font-size: 15px;
     padding:8px 15px 8px 15px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .farming-organic-container .content-area .text-button-area h5{
@@ -67,7 +81,7 @@
 .farming-organic-container .content-area .text-button-area p{
     color:#39629D;
     font-size:16px;
-    margin-top:10px;
+    margin-top:5px;
 }
 
 .farming-organic-container .farming-organic-footer{
@@ -103,4 +117,5 @@
 }
 .farming-organic-container .farming-organic-top-design img {
    max-width:220px;
+   opacity:0.8;
 }

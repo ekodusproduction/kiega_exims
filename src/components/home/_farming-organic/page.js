@@ -1,4 +1,6 @@
 import './farming-organic.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 export default function FarmingOrganic(){
     return (
@@ -15,8 +17,8 @@ export default function FarmingOrganic(){
                         <h4>Farming with love</h4>
                         <h2>Organic & healthy fresh food provider</h2>
                         <div className='button-groups'>
-                            <button className='btn btn-md btn-primary natural'>The Natural Products</button>
-                            <button className='btn btn-md btn-success organic'>The Organic products</button>
+                            <button className='btn btn-md btn-primary natural'><FontAwesomeIcon icon={faCheckCircle} style={{marginRight:"5", fontSize:"20"}}/>The Natural Products</button>
+                            <button className='btn btn-md btn-success organic'><FontAwesomeIcon icon={faCheckCircle} style={{marginRight:"5", fontSize:"20"}}/>The Organic products</button>
                         </div>
                         
                         <h5>We connect buyers and sellers of natural, are so beguiled

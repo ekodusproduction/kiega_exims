@@ -3,9 +3,13 @@ import "./globals.css";
 import Header from "../components/_header/page";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BootstrapConfig from "@/components/_bootstrap_config/page";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import '@fortawesome/fontawesome-svg-core/styles.css';
 
 
 const inter = Inter({ subsets: ["latin"] });
+
+config.autoAddCss = false; // Prevent Font Awesome from adding its own CSS
 
 export const metadata = {
   title: {
