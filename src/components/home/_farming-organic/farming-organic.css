@@ -28,7 +28,7 @@
 }
 
 .farming-organic-container .content-area .text-button-area{
-    margin-top:80px;
+    margin-top:50px;
     margin-right:80px;
 }
 
@@ -95,4 +95,12 @@
     margin-bottom: 0px;
     margin-top:10px;
     margin-left:20px;
+}
+.farming-organic-container .farming-organic-top-design {
+    position: absolute;
+    top: 0%;
+    left: 35%;
+}
+.farming-organic-container .farming-organic-top-design img {
+   max-width:220px;
 }

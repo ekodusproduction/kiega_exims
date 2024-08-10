@@ -26,6 +26,9 @@ export default function FarmingOrganic(){
                         </p>
                     </div>  
                 </div>
+                <div className='farming-organic-top-design'>
+                   <img src="/assets/farming-organic-top-design.png" alt="farming organic top design"/>
+                </div>
                 <div className='farming-organic-footer'>
                     <img src="/assets/veg-busket.png" alt="veg busket"/>
                     <h4>Every day fresh and quality products<br/>
