@@ -14,14 +14,22 @@ export default function FarmingOrganic(){
                     <div className='text-button-area'>
                         <h4>Farming with love</h4>
                         <h2>Organic & healthy fresh food provider</h2>
-                        <button className='btn btn-md btn-primary'>The Natural Product</button>
-                        <button className='btn btn-md btn-success'>The Organic products</button>
+                        <div className='button-groups'>
+                            <button className='btn btn-md btn-primary natural'>The Natural Products</button>
+                            <button className='btn btn-md btn-success organic'>The Organic products</button>
+                        </div>
+                        
                         <h5>We connect buyers and sellers of natural, are so beguiled
                         demoralized charms of pleasure.</h5>
                         <p>Aliquam viverra arcu. Donec aliquet blandit enim. Suspendisse id quam sed eros 
                             tincidunt luctus sit amet eu nibh egestas tempus turpis, sit amet mattis magna varius non.
                         </p>
                     </div>  
+                </div>
+                <div className='farming-organic-footer'>
+                    <img src="/assets/veg-busket.png" alt="veg busket"/>
+                    <h4>Every day fresh and quality products<br/>
+                    for you deliver at doorstep</h4>
                 </div>
             </div>
         </>
