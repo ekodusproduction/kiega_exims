@@ -16,10 +16,81 @@
     text-align: center;
 }
 
-/* .what-we-offer-container .category-cards-container{
+.what-we-offer-container .category-cards-container{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
 
+    margin-top:50px;
+    margin-left:180px;
+    max-width:600px;
+}
+.what-we-offer-container .category-cards-container .catergory-card{
+    position:relative;
+}
+
+.what-we-offer-container .category-cards-container .catergory-card img{
     max-height:500px;
     width:300px;
-    background:rgb(243, 243, 243);
-    overflow: hidden;
-} */
+}
+
+.what-we-offer-container .category-cards-container .catergory-card .header-img-1{
+    position:absolute;
+    top:8.5%;
+    left:11%;
+
+}
+
+.what-we-offer-container .category-cards-container .catergory-card .header-img-2{
+    position:absolute;
+    top:8.5%;
+    left:14%;
+
+}
+.what-we-offer-container .category-cards-container .catergory-card .header-img-3{
+    position:absolute;
+    top:8.5%;
+    left:14%;
+
+}
+.what-we-offer-container .category-cards-container .catergory-card .header-img-4{
+    position:absolute;
+    top:8.5%;
+    left:17%;
+
+}
+
+.what-we-offer-container .category-cards-container .catergory-card .header-img-1 img{
+    width:250px;
+}
+.what-we-offer-container .category-cards-container .catergory-card .header-img-2 img{
+    width:250px;
+}
+.what-we-offer-container .category-cards-container .catergory-card .header-img-3 img{
+    width:250px;
+}
+.what-we-offer-container .category-cards-container .catergory-card .header-img-4 img{
+    width:250px;
+}
+
+.what-we-offer-container .category-cards-container .catergory-card .card-content{
+    position:absolute;
+    top: 65%;
+    left: 10%;
+    text-align: center;
+}
+
+
+.what-we-offer-container .category-cards-container .catergory-card .card-content h5{
+    color: #1F1764;
+    font-weight: 600;
+}
+
+
+.what-we-offer-container .category-cards-container .catergory-card .card-content p{
+    font-size: 14px;
+    margin-left: 36px;
+    width: 72%;
+    color: #1F1764;
+}
