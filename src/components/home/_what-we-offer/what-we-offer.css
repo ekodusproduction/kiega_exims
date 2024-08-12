@@ -94,3 +94,13 @@
     width: 72%;
     color: #1F1764;
 }
+
+.what-we-offer-container .quality-cards{
+    text-align: center;
+    width:100%;
+    margin-top:20px;
+}
+
+.what-we-offer-container .quality-cards img{
+    max-width:560px;
+}

@@ -49,6 +49,11 @@ export default function WhatWeOffer(){
                         </div>
                     </div>
                 </div>
+
+                <div className='quality-cards'>
+                    <img src="/assets/healthy-products-card.png" alt="Healthy product card" />
+                    <img src="/assets/quality-organic-cards.png" alt="Quality organic card" />
+                </div>
             </div>
         </>
     )
