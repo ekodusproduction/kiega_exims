@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../components/_header/page";
+import Footer from "@/components/_footer/page";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BootstrapConfig from "@/components/_bootstrap_config/page";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className} style={{background:"url('/assets/pattern.png')"}}>
         <Header className="roboto-regular"/>
         {children}
+        <Footer />
       </body>
     </html>
   );

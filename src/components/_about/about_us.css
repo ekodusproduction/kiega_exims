@@ -1,0 +1,97 @@
+.about-us-top-img img{
+    width:100%;
+    max-height:550px;
+}
+
+.about-us-container .heading{
+    border: 1px solid #1B1464;
+    max-width: 180px;
+    background: #1B1464;
+    margin-left: 50px;
+    margin-top:50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.about-us-container .heading h4{
+    color: #fff;
+    margin-bottom:0px;
+    font-size:20px;
+}
+
+.about-us-container .about-us-content{
+    margin-left:50px;
+    margin-top:50px;
+    
+}
+
+.about-us-container .about-us-content h6{
+    font-weight: 600;
+    color:#1B1464;
+    font-size:20px;
+    
+}
+.about-us-container .about-us-content h4{
+    font-weight: 800;
+    color:#1B1464;
+    font-size:26px;
+    
+}
+
+.about-us-container .about-us-content p{
+    color:#1B1464;
+    font-size:16px;
+    margin-right:100px;
+    text-align: justify;
+    margin-top:30px;
+    font-weight: 500;
+}
+
+.about-us-container .about-us-content .about-us-map{
+    text-align: center;
+}
+
+.about-us-container .about-us-content .about-us-map img{
+    width: auto;
+    max-height: 550px;
+}
+
+.about-us-container .our-mission-content{
+    margin-left:50px;
+    margin-top:50px;
+}
+
+.about-us-container .our-mission-content p{
+    color:#1B1464;
+    font-size:16px;
+    margin-right:100px;
+    text-align: justify;
+    margin-top:30px;
+    font-weight: 600;
+}
+
+.about-us-container .our-vision-content{
+    margin-top:50px;
+    margin-left:30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-us-container .our-vision-content p{
+    color:#1B1464;
+    font-size:16px;
+    text-align: justify;
+    font-weight: 600;
+    max-width:70%;
+}
+
+.about-us-container .our-vision-content img{
+    max-height:400px;
+    width:auto;
+    margin-right:100px;
+    margin-top:-100px;
+}
