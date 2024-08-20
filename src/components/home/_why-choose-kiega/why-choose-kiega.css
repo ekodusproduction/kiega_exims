@@ -1,0 +1,165 @@
+.farming-organic-container {
+  position: relative;
+}
+
+.farming-organic-container .background img {
+  max-height: 650px;
+  width: 100%;
+}
+
+.farming-organic-container .content-area {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.farming-organic-container .content-area .farming-girl-img-container {
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.farming-organic-container .content-area .farming-girl-img-container img {
+  margin-top: 50px;
+  max-width: 500px;
+}
+
+.farming-organic-container .content-area .text-button-area {
+  margin-top: 50px;
+  margin-right: 80px;
+}
+
+.farming-organic-container .content-area .text-button-area h4 {
+  color: #238009;
+}
+.farming-organic-container .content-area .text-button-area h2 {
+  color: #1f1764;
+  font-size: 58px;
+}
+
+.farming-organic-container .content-area .text-button-area .button-groups {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.farming-organic-container
+  .content-area
+  .text-button-area
+  .button-groups
+  .natural {
+  margin-right: 30px;
+  background: #070044;
+  color: white;
+  font-size: 15px;
+  padding: 8px 15px 8px 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.farming-organic-container
+  .content-area
+  .text-button-area
+  .button-groups
+  .organic {
+  background: #068b03;
+  color: white;
+  font-size: 15px;
+  padding: 8px 15px 8px 15px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.farming-organic-container .content-area .text-button-area h5 {
+  color: #808e1d;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.farming-organic-container .content-area .text-button-area p {
+  color: #39629d;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.farming-organic-container .farming-organic-footer {
+  position: absolute;
+  top: 78%;
+  width: 100%;
+
+  height: 80px;
+
+  background: #204f23;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.farming-organic-container .farming-organic-footer img {
+  max-height: 65px;
+  margin-left: 29rem;
+}
+
+.farming-organic-container .farming-organic-footer h4 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.farming-organic-container .farming-organic-top-design {
+  position: absolute;
+  top: 0%;
+  left: 35%;
+}
+.farming-organic-container .farming-organic-top-design img {
+  max-width: 220px;
+  opacity: 0.9;
+}
+.whychoose_keiga_button {
+  top: 100;
+}
+.whychoose_kiega {
+  top: 100;
+}
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.farming-organic-container .content-area .text-style {
+  margin-top: 30px;
+  position: relative;
+}
+
+.farming-organic-container .content-area .text-style span {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: aliceblue;
+  margin-bottom: -80px;
+  text-align: left;
+  margin-left: 50px;
+}
+.farming-organic-container .content-area .text-style i {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  color: aliceblue;
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 50px;
+
+}
