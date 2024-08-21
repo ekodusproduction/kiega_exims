@@ -13,11 +13,30 @@ export default function Awesomefarmerteam() {
         <div className="artboard-item">
           <img
             src="/assets/green-borderadius.png"
-            alt="Artboard-10"
+            alt="Green Background"
             className="green-border"
           />
-          <img src="/assets/Artboard-10.png" alt="Artboard-10" />
-
+          <img
+            src="/assets/Artboard-10.png"
+            alt="Artboard Image"
+          />
+          <img
+            className="orange-image"
+            src="/assets/orange.png"
+            alt="Orange Decoration"
+          />
+        </div>
+        
+        <div className="artboard-item">
+          <img
+            src="/assets/green-borderadius.png"
+            alt="Green Background"
+            className="green-border"
+          />
+          <img
+            src="/assets/Artboard-10-copy.png"
+            alt="Artboard Image"
+          />
           <img
             className="orange-image"
             src="/assets/orange.png"
@@ -27,25 +46,13 @@ export default function Awesomefarmerteam() {
         <div className="artboard-item">
           <img
             src="/assets/green-borderadius.png"
-            alt="Artboard-10"
+            alt="Green Background"
             className="green-border"
           />
-          <img src="/assets/Artboard-10-copy.png" alt="Artboard-10-copy" />
-
           <img
-            className="orange-image"
-            src="/assets/orange.png"
-            alt="Orange Decoration"
+            src="/assets/Artboard-10-copy-2.png"
+            alt="Artboard Image"
           />
-        </div>
-        <div className="artboard-item">
-          <img
-            src="/assets/green-borderadius.png"
-            alt="Artboard-10"
-            className="green-border"
-          />
-          <img src="/assets/Artboard-10-copy-2.png" alt="Artboard-10-copy-2" />
-
           <img
             className="orange-image"
             src="/assets/orange.png"

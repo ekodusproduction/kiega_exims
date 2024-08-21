@@ -6,6 +6,7 @@ import WhatWeOffer from "./_what-we-offer/page";
 import NewHotProducts from "./_new-hot-products/page";
 import WhyChooseKiega from "./_why-choose-kiega/page";
 import Awesomefarmerteam from "./_Awesome-farmer-team/page";
+import OurFeedbacks from "./_our-feedbacks/page";
 
 export const metadata = {
   title: "Home Page | Kiega Exims",
@@ -22,6 +23,7 @@ export default function HomePage() {
       <NewHotProducts />
       <WhyChooseKiega />
       <Awesomefarmerteam />
+      <OurFeedbacks />
     </>
   );
 }

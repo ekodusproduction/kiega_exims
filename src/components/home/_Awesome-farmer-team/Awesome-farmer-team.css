@@ -1,7 +1,7 @@
 .awesome-farmer-team-container {
   position: relative;
   text-align: center;
-  padding: 0px;
+  padding: 20px;
 }
 
 .text-style {
@@ -17,7 +17,7 @@
 .artboard-images-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 20px auto;
   max-width: 100%;
@@ -30,13 +30,9 @@
   width: 30%;
   height: auto;
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
 }
 
-.artboard-item .green-border {
+.green-border {
   position: absolute;
   top: 0;
   left: 0;
@@ -46,7 +42,7 @@
   z-index: 1;
 }
 
-.artboard-item img {
+.artboard-item img:nth-of-type(2) {
   position: relative;
   width: 80%;
   height: auto;
@@ -54,10 +50,11 @@
 }
 
 .orange-image {
-  position: relative;
-  bottom: 10px;
-  right: 10px;
-  width: 100px;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translateX(-50%);
+  width: 250px;
   z-index: 3;
-  top: 150px;
 }
+ 
