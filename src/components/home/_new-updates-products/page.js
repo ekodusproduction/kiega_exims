@@ -13,7 +13,7 @@ export default function NewUpdatesProducts() {
       </div>
       <div className="row justify-content-center">
         <div className="col-md-12 d-flex justify-content-center">
-          <div className="new-product d-flex flex-row">
+          <div className="new-product d-flex flex-row justify-content-around">
             <div className="image-container">
               <img
                 src="/assets/arunachal.png"
@@ -68,28 +68,28 @@ export default function NewUpdatesProducts() {
 
         <div className="row justify-content-center">
           <div className="col-md-12 d-flex justify-content-center">
-            <div
-              className="new-product d-flex flex-row justify-content-around"
-              style={{ width: "100%" }}
-            >
-              <img
-                src="/assets/organic-pineapple.png"
-                alt="Green Background"
-                className="img-fluid"
-                style={{ height: "300px", width: "30%", objectFit: "fill" }}
-              />
-              <img
-                src="/assets/organic-litchi.png"
-                alt="Green Background"
-                className="img-fluid"
-                style={{ height: "300px", width: "30%", objectFit: "fill" }}
-              />
-              <img
-                src="/assets/organic-dragon.png"
-                alt="Green Background"
-                className="img-fluid"
-                style={{ height: "300px", width: "30%", objectFit: "fill" }}
-              />
+            <div className="new-product d-flex flex-row justify-content-around">
+              <div className="image-container">
+                <img
+                  src="/assets/organic-pineapple.png"
+                  alt="Green Background"
+                  className="img-fluid"
+                />
+              </div>
+              <div className="image-container">
+                <img
+                  src="/assets/organic-litchi.png"
+                  alt="Green Background"
+                  className="img-fluid"
+                />
+              </div>
+              <div className="image-container">
+                <img
+                  src="/assets/organic-dragon.png"
+                  alt="Green Background"
+                  className="img-fluid"
+                />
+              </div>
             </div>
           </div>
         </div>

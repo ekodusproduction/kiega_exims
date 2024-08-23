@@ -1,25 +1,111 @@
-.header-container{
-    width:100%;
+/* General styling */
+.header-container {
+  width: 100%;
+  padding: 10px;
 }
 
-.header-nav{
+/* Default styling for desktop */
+.header-nav {
+  position: absolute;
+  right: 0;
+  background-color: white;
+  max-width: 400px;
+  max-height: 60px;
+  border: 1px solid white;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 0px 5px 5px #e0e0e0;
+  width: 300px;
+}
+
+.header-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.small-logo-area img {
+  max-width: 60px;
+}
+
+.header-nav-menu .bx-menu {
+  font-size: 35px;
+  color: #333;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 768px) {
+  .header-nav {
     position: relative;
-    left: 60%;
-    background-color: white;
-    max-width:400px;
-    max-height:90px;
-    border:1px solid white;
-    border-radius: 0px 0px 25px 25px;
-    box-shadow: 0px 5px 5px #e0e0e0;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    border-radius: 0px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+
+  .header-items {
+    justify-content: space-between;
+  }
+
+  .small-logo-area img {
+    max-width: 50px;
+  }
+
+  .header-nav-menu .bx-menu {
+    font-size: 30px;
+  }
 }
 
-.header-items{
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-    justify-content:space-around;
+@media (max-width: 480px) {
+  .header-nav {
+    max-height: 70px;
+    padding: 0 15px;
+  }
+
+  .header-items {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .small-logo-area img {
+    max-width: 40px;
+  }
+
+  .header-nav-menu .bx-menu {
+    font-size: 28px;
+  }
 }
 
-.header-nav-menu .bx-menu{
-    font-size:35px;
+
+
+.dropdown-menu {
+  padding: 10px;  
+  border-radius: 8px;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  height: 400px; 
+  width: 290px;
+  display: flex;  
+  flex-direction: column; /* Align items in a column */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.dropdown-menu .dropdown-item {
+  padding: 8px 15px; /* Padding for each dropdown item */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  display: flex; /* Use flexbox to align items */
+  justify-content: center; /* Center align the items horizontally */
+  align-items: center; /* Center align the items vertically */
+  width: 100%; /* Make items take full width of the dropdown */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit color from parent */
+  margin-top: 10px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #8ac1f8; /* Light background on hover */
+  border-radius: 5px; /* Rounded corners on hover */
 }

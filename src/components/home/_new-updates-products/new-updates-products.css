@@ -21,3 +21,41 @@
   width: auto;
   object-fit: contain;
 }
+@media (max-width: 767px) {
+  .new-product {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .new-product .image-container {
+    margin: 10px 0; /* Adjust margin for mobile */
+  }
+
+  .img-fluid {
+    height: auto; /* Let height adjust automatically */
+    width: 80%; /* Adjust width for better mobile view */
+  }
+
+  .new-product img {
+    margin-bottom: 10px; /* Space between images */
+  }
+}
+
+
+/* Mobile view adjustments */
+@media (max-width: 767px) {
+  .new-product {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .new-product img {
+    height: 200px; /* Adjust height for mobile */
+    width: auto; /* Maintain aspect ratio */
+    padding: 10px; /* Add padding around images */
+  }
+
+  .new-product .image-container {
+    margin: 10px 0; /* Space between images */
+  }
+}

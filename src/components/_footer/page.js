@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="footer-logo">
             <img src="/assets/kiega-logo-white.png" alt="footer kiega logo" />
             <h6>
-              We provide Fresh Organic fruits <br /> and vegetables
+              We provide Fresh Organic <br /> fruits and vegetables
             </h6>
             <div className="social-media-links">
               <i className="bx bxl-facebook-circle"></i>

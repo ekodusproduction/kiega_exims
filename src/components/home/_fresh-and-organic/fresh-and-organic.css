@@ -1,72 +1,138 @@
 .fresh-and-organic {
-    position:relative;
+  position: relative;
 }
 
-.fresh-and-organic .banner img{
-    width:100%;
-    max-height:350px;
+.fresh-and-organic .banner img {
+  width: 100%;
+  max-height: 350px;
 }
-.fresh-and-organic .banner{
-   position:relative;
-}
-
-.fresh-and-organic .banner .main-title{
-    position: absolute;
-    top:15%;
-    left:8%;
+.fresh-and-organic .banner {
+  position: relative;
 }
 
-.fresh-and-organic .banner .main-title h2{
-    font-size:70px;
-    font-weight:900;
-    color:white;
+.fresh-and-organic .banner .main-title {
+  position: absolute;
+  top: 15%;
+  left: 8%;
 }
 
-.fresh-and-organic .banner .main-title .sub-title h6{
-    color:white;
-    font-size:14px;
-    font-weight: 500;
+.fresh-and-organic .banner .main-title h2 {
+  font-size: 70px;
+  font-weight: 900;
+  color: white;
 }
 
-.explore-full-range-section{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.fresh-and-organic .banner .main-title .sub-title h6 {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.explore-full-range-button{
-    margin-left:120px;
-    
+.explore-full-range-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.explore-full-range-button button{
-    border-radius:20px;
-    font-size:14px;
+.explore-full-range-button {
+  margin-left: 120px;
 }
 
-.explore-full-range-button h5{
-    font-size:16px;
-    font-weight:600;
-    color:#1B1464;
+.explore-full-range-button button {
+  border-radius: 20px;
+  font-size: 14px;
 }
 
-.khasi-mandarin{
-    position:absolute;
-    top:95%;
-    left:60%;
+.explore-full-range-button h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1b1464;
 }
 
-.khasi-mandarin h2{
-    font-size:20px;
-    font-weight:700;
-    color:#1B1464;
-    margin-right:120px;
+.khasi-mandarin {
+  position: absolute;
+  top: 95%;
+  left: 60%;
 }
 
-.fresh-and-organic .fruit-slider-container{
-    /* position:absolute;
+.khasi-mandarin h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1b1464;
+  margin-right: 120px;
+}
+
+.fresh-and-organic .fruit-slider-container {
+  /* position:absolute;
     top:5%;
     left:30%; */
-    margin-left:30px;
+  margin-left: 30px;
 }
+
+@media (max-width: 768px) {
+    .fresh-and-organic .banner img {
+      max-height: 200px;
+    }
+  
+    .fresh-and-organic .banner .main-title h2 {
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .fresh-and-organic .banner .main-title {
+      top: 10%;
+      left: 5%;
+    }
+  
+    .fresh-and-organic .banner .main-title .sub-title h6 {
+      font-size: 12px;
+      text-align: center;
+    }
+  
+    .explore-full-range-section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .explore-full-range-button {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  
+    .explore-full-range-button h5 {
+      font-size: 14px;
+    }
+  
+    .explore-full-range-button button {
+      font-size: 12px;
+      width: 90%;
+    }
+  
+    .fruit-slider-container {
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .khasi-mandarin {
+      position: relative;
+      top: auto;
+      left: auto;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .khasi-mandarin h2 {
+      font-size: 18px;
+      margin-right: 0;
+    }
+  
+    .fruit-slider-container img {
+      max-width: 150px;
+      max-height: 150px;
+      margin: 10px;
+    }
+  }
+  

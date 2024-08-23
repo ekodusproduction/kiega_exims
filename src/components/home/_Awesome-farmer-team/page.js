@@ -3,7 +3,7 @@ import "./Awesome-farmer-team.css";
 export default function Awesomefarmerteam() {
   return (
     <div className="awesome-farmer-team-container">
-      <div className="text-style">
+      <div className="text-style" style={{marginTop:'300px'}}>
         <span>Checkout New Products</span>
         <br />
         <span>Awesome Farmer Team here to help you</span>

@@ -1,116 +1,74 @@
-.fruit-img-1{
+/* General styles for fruit images */
+.fruit-img-1, .fruit-img-2, .fruit-img-3, .fruit-img-4, .fruit-img-5, .fruit-img-6, .fruit-img-7, .fruit-img-8 {
     position: absolute;
     z-index: 10;
-    top: 0%;
-    left: 35%;
     animation: slide 8s infinite;
-    animation-delay: 0s;
 }
 
-.fruit-img-1 img{
-    max-height:500px;
-}
+/* Default sizes and positions for desktop view */
+.fruit-img-1 { top: 0%; left: 35%; animation-delay: 0s; }
+.fruit-img-2 { top: 26%; left: 54%; animation-delay: 1s; }
+.fruit-img-3 { top: 13%; left: 59%; animation-delay: 2s; }
+.fruit-img-4 { top: 12%; left: 64%; animation-delay: 3s; }
+.fruit-img-5 { top: 17%; left: 69%; animation-delay: 4s; }
+.fruit-img-6 { top: 19%; left: 74%; animation-delay: 5s; }
+.fruit-img-7 { top: 19%; left: 78%; animation-delay: 6s; }
+.fruit-img-8 { top: 16%; left: 80%; animation-delay: 7s; }
 
-.fruit-img-2{
-    position: absolute;
-    top: 26%;
-    left: 54%;
-    z-index: 9;
-    animation: slide 8s infinite;
-    animation-delay: 1s;
-}
-.fruit-img-2 img{
-    max-height:200px;
-}
+.fruit-img-1 img { max-height: 500px; }
+.fruit-img-2 img { max-height: 200px; }
+.fruit-img-3 img { max-height: 240px; }
+.fruit-img-4 img { max-height: 230px; }
+.fruit-img-5 img { max-height: 180px; }
+.fruit-img-6 img { max-height: 140px; }
+.fruit-img-7 img { max-height: 110px; }
+.fruit-img-8 img { max-height: 120px; }
 
-.fruit-img-3{
-    position: absolute;
-    top: 13%;
-    left: 59%;
-    z-index: 8;
-    animation: slide 8s infinite;
-    animation-delay: 2s;
-}
-.fruit-img-3 img{
-    max-height:240px;
-}
-
-.fruit-img-4{
-    position: absolute;
-    top: 12%;
-    left: 64%;
-    z-index: 7;
-    animation: slide 8s infinite;
-    animation-delay: 3s;
-}
-.fruit-img-4 img{
-    max-height:230px;
-}
-
-.fruit-img-5{
-    position: absolute;
-    top: 17%;
-    left: 69%;
-    z-index: 6;
-    animation: slide 8s infinite;
-    animation-delay: 4s;
-}
-.fruit-img-5 img{
-    max-height:180px;
-}
-.fruit-img-6{
-    position: absolute;
-    top: 19%;
-    left: 74%;
-    z-index: 5;
-    animation: slide 8s infinite;
-    animation-delay: 5s;
-}
-.fruit-img-6 img{
-    max-height:140px;
-}
-.fruit-img-7{
-    position: absolute;
-    top: 19%;
-    left: 78%;
-    z-index: 4;
-    animation: slide 8s infinite;
-    animation-delay: 6s;
-}
-.fruit-img-7 img{
-    max-height:110px;
-}
-.fruit-img-8{
-    position: absolute;
-    top: 16%;
-    left: 80%;
-    z-index: 3;
-    animation: slide 8s infinite;
-    animation-delay: 7s;
-}
-.fruit-img-8 img{
-    max-height:120px;
-}
-
+/* Keyframes for sliding animation */
 @keyframes slide {
-    0% {
-        opacity: 0;
-        transform: scale(0.5) translateX(50%);
-      
+    0% { opacity: 0; transform: scale(0.5) translateX(50%); }
+    10% { opacity: 1; transform: scale(1) translateX(0); }
+    90% { opacity: 1; transform: scale(1) translateX(0); }
+    100% { opacity: 0; transform: scale(1.5) translateZ(-50%); }
+}
+
+/* Mobile view styles */
+@media (max-width: 768px) {
+    .fruit-slider-container {
+        position: relative;
+        margin-top: 20px; /* Adjust margin as needed */
+        padding: 10px; /* Add padding if necessary */
+        max-height: 200px; /* Adjust height for mobile view */
+        /* overflow: hidden; */
     }
-    10% {
-        opacity: 1;
-        transform: scale(1) translateX(0);
-       
+
+    .fruit-img-1, .fruit-img-2, .fruit-img-3, .fruit-img-4, .fruit-img-5, .fruit-img-6, .fruit-img-7, .fruit-img-8 {
+        animation: slide-mobile 10s infinite; /* Adjust duration for mobile view */
     }
-    90% {
-        opacity: 1;
-        transform: scale(1) translateX(0);
-        
-    }
-    100% {
-        opacity: 0;
-        transform: scale(1.5) translateZ(-50%);
-        
-    }
+
+    .fruit-img-1 { top: 10%; left: 10%; }
+    .fruit-img-2 { top: 30%; left: 20%; }
+    .fruit-img-3 { top: 50%; left: 30%; }
+    .fruit-img-4 { top: 70%; left: 40%; }
+    .fruit-img-5 { top: 90%; left: 50%; }
+    .fruit-img-6 { top: 110%; left: 60%; }
+    .fruit-img-7 { top: 130%; left: 70%; }
+    .fruit-img-8 { top: 150%; left: 80%; }
+
+    .fruit-img-1 img { max-height: 100px; }
+    .fruit-img-2 img { max-height: 80px; }
+    .fruit-img-3 img { max-height: 90px; }
+    .fruit-img-4 img { max-height: 85px; }
+    .fruit-img-5 img { max-height: 75px; }
+    .fruit-img-6 img { max-height: 70px; }
+    .fruit-img-7 img { max-height: 60px; }
+    .fruit-img-8 img { max-height: 65px; }
+}
+
+/* Keyframes for mobile sliding animation */
+@keyframes slide-mobile {
+    0% { opacity: 0; transform: scale(0.5) translateX(50%); }
+    10% { opacity: 1; transform: scale(1) translateX(0); }
+    90% { opacity: 1; transform: scale(1) translateX(0); }
+    100% { opacity: 0; transform: scale(1.5) translateZ(-50%); }
 }
