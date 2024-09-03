@@ -1,0 +1,152 @@
+/* fruit.css */
+
+/* Base styles for desktop */
+.fruit-container {
+  padding: 20px;
+}
+
+.fruit-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fruit-container div {
+  margin-bottom: 20px;
+}
+
+/* Styles for pineapple section */
+.pineapple-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pineapple-section .image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pineapple-section .image-wrapper img {
+  width: 300px;
+  height: 180px;
+}
+
+/* Styles for kiwi section */
+.kiwi-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kiwi-section .image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.kiwi-section .image-wrapper img {
+  width: 300px;
+  height: 180px;
+}
+
+/* Styles for litchi section */
+.litchi-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.litchi-section .image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.litchi-section .image-wrapper img {
+  width: 300px;
+  height: 180px;
+}
+
+/* Styles for mango section */
+.mango-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mango-section .image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mango-section .image-wrapper img {
+  width: 300px;
+  height: 180px;
+}
+
+/* Styles for jackfruit section */
+.jackfruit-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jackfruit-section .image-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.jackfruit-section .image-wrapper img {
+  width: 300px;
+  height: 180px;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .fruit-container {
+    padding: 10px;
+  }
+
+  .fruit-container div {
+    margin-bottom: 15px;
+  }
+
+  .fruit-container img {
+    width: 100%;
+  }
+
+  .pineapple-section .image-wrapper,
+  .kiwi-section .image-wrapper,
+  .litchi-section .image-wrapper,
+  .mango-section .image-wrapper,
+  .jackfruit-section .image-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pineapple-section .image-wrapper img,
+  .kiwi-section .image-wrapper img,
+  .litchi-section .image-wrapper img,
+  .mango-section .image-wrapper img,
+  .jackfruit-section .image-wrapper img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .fruit-container div p {
+    font-size: 14px;
+  }
+
+  .fruit-container div h5 {
+    font-size: 16px;
+  }
+}
