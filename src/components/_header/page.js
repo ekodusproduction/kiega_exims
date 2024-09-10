@@ -24,9 +24,10 @@ export default function Header() {
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Rice and Corn
-                  </a>
+                   
+                  <Link href="/riceandcorn" className="dropdown-item">
+                  Rice and Corn
+                  </Link>
                 </li>
                 <li>
                   <Link href="/fruit" className="dropdown-item">
@@ -34,9 +35,9 @@ export default function Header() {
                   </Link>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Organic Vegetables
-                  </a>
+                <Link href="/vegetable" className="dropdown-item">
+                    Organic Vegatables
+                  </Link>
                 </li>
               </ul>
             </div>
