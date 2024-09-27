@@ -1,0 +1,28 @@
+.containerofriceandcorn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #af8748;
+  width: 100%;
+}
+
+.containerofriceandcorn img {
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-content {
+  color: #000;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: left; /* Aligns text to the center */
+  margin: 0 auto; /* Ensures proper alignment in the container */
+  padding: 10px; /* Adds padding for spacing */
+  margin-top: 100px;
+  max-width: 700px;
+}
+
+.text-content strong {
+  font-weight: bold;
+}

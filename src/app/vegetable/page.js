@@ -310,47 +310,51 @@ export default function VegetablePage() {
       />
 
       <div>
-        <img src="/assets/brinjaltext.png" alt="fruits header image" />
+        <img src="/assets/greenchillies-text.png" alt="fruits header image" />
 
         <div
           class="flex-container"
           style={{ backgroundColor: "#e2ecca", marginTop: "-20px" }}
         >
           <div>
-            <img src="/assets/brinjalimage.png" alt="fruits header image" />
+            <img
+              src="/assets/greenchillies-image.png"
+              alt="fruits header image"
+            />
           </div>
           <div class="text-content">
             <p>
-              <strong>BRINJAL</strong>, also known as eggplant or aubergine, is
-              a widely cultivated and consumed vegetable in Northeast India.
-              Known for its versatility in cooking, brinjal is a staple in the
-              region's cuisine. Here's a detailed overview:
+              <strong>GREEN CHILIES</strong> from Northeast India are known for
+              their distinct flavors, varying heat levels, and their importance
+              in regional cuisine. Here's a detailed overview:
             </p>
             <p>
-              <strong>LONG PURPLE BRINJAL:</strong> Slender, elongated shape,
-              commonly used in stir-fries and curries.
+              <strong>BIRD'S EYE CHILI (DHANI):</strong>Known locally as
+              "Dhani," these small but extremely hot chilies are a staple in the
+              region. They are particularly popular in Mizoram, Manipur, and
+              Nagaland.
             </p>
             <p>
-              <strong>ROUND BRINJAL:</strong> Small to medium-sized round
-              fruits, popular in stews and curries.
+              <strong>LOCAL VARIETIES:</strong> There are various other local
+              varieties grown throughout the region, each with unique flavors
+              and heat levels.
             </p>
             <p>
-              Lablab beans are rich in protein and other nutrients, and have a
-              high lysine content similar to soy- beans. The beans also contain
-              a relatively high amount of starch, but low fiber.
+              <strong>CLIMATE AND SOIL:</strong> The humid and subtropical
+              climate of Northeast India, coupled with rich, well-drained soil,
+              provides ideal conditions for chili cultivation. States like
+              Assam, Meghalaya, Manipur, Nagaland, and Mizoram are major
+              producers.
             </p>
             <p>
               <strong>GREEN BRINJAL:</strong> Light green in color, often used
               in traditional dishes.
             </p>
+
             <p>
-              <strong> APPEARANCE:</strong> Varies from long and slender to
-              short and round, with colors ranging from deep purple to green.
-            </p>
-            <p>
-              <strong>CLIMATE AND SOIL:</strong> Brinjal thrives in the warm and
-              humid climate of Northeast India. It prefers well-drained, fertile
-              soil with good organic content.
+              <strong>FARMING PRACTICES:</strong> Both traditional and modern
+              farming methods are used. Organic farming is becoming increasingly
+              popular due to the growing demand for pesticide-free produce
             </p>
           </div>
         </div>
