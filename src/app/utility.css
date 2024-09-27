@@ -1,0 +1,7 @@
+.grid-container {
+    display: grid;
+}
+
+.grid-temp-col {
+    grid-template-columns: var(--col-num);
+}

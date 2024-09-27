@@ -2,13 +2,14 @@
 @import url('https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css');
 
 
-.html{
-  margin:0;
-  padding:0;
+.html {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 .roboto-thin {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
   }
@@ -79,10 +80,11 @@
     font-style: italic;
   }
 
-  .dropdown-menu {
-    z-index: 1050; /* Ensure it is above other elements */
+.dropdown-menu {
+  z-index: 1050;
+    /* Ensure it is above other elements */
   }
 
-  .section-divider{
-    margin-bottom:100px;
-  }
+.section-divider {
+  margin-bottom: 100px;
+}

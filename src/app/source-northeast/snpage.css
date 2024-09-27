@@ -1,0 +1,15 @@
+.sn-hero-content img {
+    width: 40vw;
+}
+
+.sn-hero-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.sn-hero-text {
+    max-width: 15rem;
+}
