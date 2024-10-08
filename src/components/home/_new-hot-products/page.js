@@ -1,10 +1,10 @@
 import './new-hot-products.css';
+import Category from '@/components/_category/page';
 
-
-export default function NewHotProducts(){
+export default function NewHotProducts() {
     return (
         <>
-            <div className='new-hot-products-container section-divider'>
+            {/* <div className='new-hot-products-container section-divider'>
                 <div className='top-heading'>
                     <h2><span>Checkout New Products</span> <br />New hotest products available now</h2>
                 </div>
@@ -46,7 +46,35 @@ export default function NewHotProducts(){
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
+            {/* <Category dataArr={['2.png', '3.png', '4.png', '5.png', '6.png']} />  */}
+            <Category dataArr={[
+                {
+                    id: 1,
+                    imgsrc: '2.png',
+                    name: "King Chilli"
+                },
+                {
+                    id: 2,
+                    imgsrc: '3.png',
+                    name: "Kaji Lemon"
+                },
+                {
+                    id: 3,
+                    imgsrc: '4.png',
+                    name: "Ginger"
+                },
+                {
+                    id: 4,
+                    imgsrc: '5.png',
+                    name: "Pineapple"
+                },
+                {
+                    id: 5,
+                    imgsrc: '6.png',
+                    name: "Turmeric"
+                },
+            ]} />
         </>
     )
 }

@@ -79,6 +79,7 @@
   .floating-banner-fruits .mango-img {
     left: 50%;
     transform: translateX(-50%);
+    top: 21%
   }
 
   .floating-banner-fruits .lemon-img {

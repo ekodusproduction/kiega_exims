@@ -1,7 +1,20 @@
-.grid-container {
+.grid-box {
     display: grid;
 }
 
-.grid-temp-col {
-    grid-template-columns: var(--col-num);
+.flex-box {
+    display: flex;
+}
+
+.alignItems {
+    align-items: center;
+}
+
+.justifyItems {
+    justify-content: center;
+}
+
+.ali-jus {
+    align-items: center;
+    justify-content: center;
 }

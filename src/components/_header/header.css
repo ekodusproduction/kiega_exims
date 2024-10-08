@@ -1,4 +1,7 @@
 /* General styling */
+.hidden {
+  display: none;
+}
 .header-container {
   width: 100%;
   padding: 10px;
@@ -34,6 +37,10 @@
   color: #333;
 }
 
+/* main dropdown menu */
+.main-dropdown {
+  z-index: 100
+}
 /* Responsive styling for mobile */
 @media (max-width: 768px) {
   .header-nav {

@@ -54,12 +54,12 @@
 }
 
 .organic-farming-container .content-area .farming-girl-container img {
-  margin-top: 50px;
+  margin-top: 10%;
   max-width: 500px;
 }
 
 .organic-farming-container .content-area .text-header {
-  margin-top: 30px;
+  margin-top: 10%;
   position: relative;
 }
 
@@ -123,7 +123,8 @@
   }
 
   .organic-farming-container .content-area .text-header span {
-    font-size: 24px; /* Adjust font size for mobile */
+    font-size: 5.4vw;
+      /* Adjust font size for mobile */
     margin-left: 0; /* Remove left margin */
   }
 

@@ -15,6 +15,9 @@
   z-index: 2;
 }
 
+.head-line-aft {
+  margin-top: 300px;
+}
 .artboard-images-container {
   display: flex;
   flex-direction: row;
@@ -29,7 +32,7 @@
 .artboard-item {
   position: relative;
   width: 30%;
-  height: auto;
+  height: max-content;
   padding: 10px;
 }
 
@@ -52,16 +55,17 @@
 
 .orange-image {
   position: absolute;
-  top: 60%;
-  left: 70%;
-  transform: translateX(-50%);
-  width: 250px;
+  top: 63%;
+    left: 72%;
+    transform: translateX(-40%);
+    width: 240px;
   z-index: 3;
+  object-fit: contain;
 }
  
 
 /* Mobile view adjustments */
-@media (max-width: 767px) {
+@media (max-width: 640px) {
   .text-style {
     font-size: 18px; /* Adjust font size for mobile */
     margin-top: 100px; /* Adjust margin-top for mobile */
@@ -83,9 +87,9 @@
 
   .orange-image {
     position: relative;  
-    top: -100px;
-    left: 100px;
-    width: 150px; 
-    transform: none;  
+    top: -120px;
+      left: 55%;
+      width: 50%;
+      /* transform: none;   */
   }
 }

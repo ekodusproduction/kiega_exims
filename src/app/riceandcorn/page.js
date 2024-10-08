@@ -1,7 +1,8 @@
 import "./riceandcorn.css";
 export default function RiceandCorn() {
   return (
-    <div>
+    <>
+      <div>
       <div>
         <img
           src="/assets/riceandcornbanner.png"
@@ -36,7 +37,7 @@ export default function RiceandCorn() {
         </div>
       </div>
 
-      <div className="containerofriceandcorn">
+        <div className="containerofriceandcorn res-col-rev">
         <div className="text-content">
           <p>
             <strong>Corn</strong>, also known as maize, is a cereal grass (Zea
@@ -85,7 +86,7 @@ export default function RiceandCorn() {
         </div>
       </div>
 
-      <div className="containerofriceandcorn">
+        <div className="containerofriceandcorn res-col-rev">
         <div className="text-content">
           <p>
             An indigenous rice variety from Manipur,{" "}
@@ -118,7 +119,9 @@ export default function RiceandCorn() {
         <div>
           <img src="/assets/organicblackrice.png" alt="fruits header image" />
         </div>
-      </div>
+        </div>   
     </div>
+      <div className="ending"></div>
+    </>  
   );
 }

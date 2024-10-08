@@ -35,12 +35,12 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/products" className="footer-link">
-                  Products
+                <Link href="/riceandcorn" className="footer-link">
+                  Rice and Corn
                 </Link>
               </li>
               <li>
-                <Link href="/north-east-source" className="footer-link">
+                <Link href="/source-northeast" className="footer-link">
                   North-East Source
                 </Link>
               </li>
@@ -49,11 +49,7 @@ export default function Footer() {
                   Social Impact
                 </Link>
               </li>
-              <li>
-                <Link href="/contractual-farming" className="footer-link">
-                  Contractual Farming
-                </Link>
-              </li>
+
             </ul>
           </div>
 
@@ -61,7 +57,7 @@ export default function Footer() {
             <h5 style={{ marginLeft: 25 }}>Contact Us</h5>
             <p>
               <i className="bx bx-phone-call"></i>
-              +91 789-745-7896
+              +91 78974-57896
             </p>
             <p style={{ marginLeft: "20px" }}>
               <i className="bx bx-mail-send"></i>

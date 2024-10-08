@@ -34,7 +34,7 @@
   .new-products-card-container
   .new-products-card
   img {
-  width: auto;
+  width: 100%;
 }
 
 .new-hot-products-container
