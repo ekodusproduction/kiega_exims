@@ -8,8 +8,8 @@ export default function Category({ dataArr }) {
             <section className='sn-category'>
                 <div className='grid-box sn-items'>
                     {
-                        dataArr && dataArr.map((el) => (
-                            <Link href={`#${el.sectionId ? el.sectionId : ''}`} className="dropdown-item">
+                        dataArr && dataArr.map((el, ind) => (
+                            <Link key={ind} href={`#${el.sectionId ? el.sectionId : ''}`} className="dropdown-item">
                                 <div className='flex-box sn-item-per alignItems justifyItems'>
                                     <div>
                                         <Image
