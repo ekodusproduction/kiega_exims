@@ -34,11 +34,13 @@ export default function FruitPage() {
                 style={{ width: "300px", height: "180px" }}
               />
               <img
+                className='res-hidden'
                 src="/assets/pineapplepiece.png"
                 alt="pineapple"
                 style={{ width: "300px", height: "180px" }}
               />
               <img
+                className='res-hidden'
                 src="/assets/pineapplepiece.png"
                 alt="pineapple"
                 style={{ width: "300px", height: "180px" }}
@@ -102,11 +104,13 @@ export default function FruitPage() {
               }}
             >
               <img
+                className='res-hidden'
                 src="/assets/kiwihalf.png"
                 alt="kiwi"
                 style={{ width: "300px", height: "180px" }}
               />
               <img
+                className='res-hidden'
                 src="/assets/kiwihalf.png"
                 alt="kiwi"
                 style={{ width: "300px", height: "180px" }}
@@ -175,11 +179,13 @@ export default function FruitPage() {
               }}
             >
               <img
+                className='res-hidden'
                 src="/assets/litchihalf.png"
                 alt="litchi"
                 style={{ width: "300px", height: "180px" }}
               />
               <img
+                className='res-hidden'
                 src="/assets/litchihalf.png"
                 alt="litchi"
                 style={{ width: "300px", height: "180px" }}
@@ -255,11 +261,13 @@ export default function FruitPage() {
               }}
             >
               <img
+                className='res-hidden'
                 src="/assets/mangohalf.png"
                 alt="mango"
                 style={{ width: "300px", height: "180px" }}
               />
               <img
+                className='res-hidden'
                 src="/assets/mangohalf.png"
                 alt="mango"
                 style={{ width: "300px", height: "180px" }}
@@ -337,11 +345,13 @@ export default function FruitPage() {
               }}
             >
               <img
+                className='res-hidden'
                 src="/assets/jackfruithalf.png"
                 alt="jackfruit"
                 style={{ width: "300px", height: "180px" }}
               />
               <img
+                className='res-hidden'
                 src="/assets/jackfruithalf.png"
                 alt="jackfruit"
                 style={{ width: "300px", height: "180px" }}

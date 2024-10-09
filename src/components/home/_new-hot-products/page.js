@@ -47,33 +47,28 @@ export default function NewHotProducts() {
                     </div>
                 </div>
             </div> */}
-            {/* <Category dataArr={['2.png', '3.png', '4.png', '5.png', '6.png']} />  */}
+
             <Category dataArr={[
                 {
                     id: 1,
-                    imgsrc: '2.png',
-                    name: "King Chilli"
+                    imgsrc: 'assets/SNpage/2.png',
+                    name: "Naga Chili"
                 },
                 {
                     id: 2,
-                    imgsrc: '3.png',
-                    name: "Kaji Lemon"
-                },
-                {
-                    id: 3,
-                    imgsrc: '4.png',
-                    name: "Ginger"
-                },
-                {
-                    id: 4,
-                    imgsrc: '5.png',
+                    imgsrc: 'assets/cut-pineapple.png',
                     name: "Pineapple"
                 },
                 {
-                    id: 5,
-                    imgsrc: '6.png',
-                    name: "Turmeric"
+                    id: 3,
+                    imgsrc: 'assets/cut-pomegranate.png',
+                    name: "Pomegranate"
                 },
+                {
+                    id: 4,
+                    imgsrc: 'assets/ridge-gourd.png',
+                    name: "Ridged Gourd"
+                }
             ]} />
         </>
     )

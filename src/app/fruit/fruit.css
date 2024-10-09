@@ -111,6 +111,10 @@
 
 /* Mobile view adjustments */
 @media (max-width: 768px) {
+  .res-hidden {
+      display: none;
+  }
+
   .fruit-container {
     padding: 10px;
   }

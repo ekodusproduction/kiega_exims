@@ -6,10 +6,10 @@ function SocialImpact() {
         <>
             <section className='si-hero-section'>
                 <Image
-                    src='/assets/SIPage/SI-hero.png'
+                    src='/assets/SIPage/social-impact-hero.png'
                     alt='Social Imapact header Image'
-                    height={650}
-                    width={500}
+                    height={800}
+                    width={1000}
                 />
             </section>
 

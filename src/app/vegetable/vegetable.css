@@ -1,30 +1,98 @@
+.para p {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(3, 80, 3);
+  max-width: 80%;
+  margin-inline: 2rem;
+  line-height: 2rem;
+}
+
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center; /* This centers the content vertically */
-    padding: 20px;
-    margin: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* This centers the content vertically */
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.flex-container img {
+  max-width: auto;
+  /* Ensures the image scales correctly */
+  height: auto;
+}
+
+.text-content {
+  text-align: left;
+  opacity: 1;
+  /* Reduces the overall opacity of the text-content */
+
+}
+
+.veg-item-section {
+  max-width: 100%;
+  min-height: 100vh;
+  margin-top: 8rem;
+}
+
+.veg-text {
+  width: 100%;
+  height: 8rem;
+}
+
+.veg-text h3 {
+  width: max-content;
+  background-color: rgb(19, 83, 39);
+  padding: 1rem;
+  color: white;
+  font-size: 3rem;
+  border-radius: 4rem;
+  padding-inline: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.veg-header-img {
+  max-width: 100%;
+  max-height: 100vh;
+}
+
+.veg-header-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.header-text-img {
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .para p {
+    font-size: 15px;
+    margin-inline: 1rem;
+    max-width: 95%;
+    padding-top: 1rem;
   }
-  
+
+  .res-flex-dir {
+    flex-direction: column;
+  }
+
+  .res-flex-dir-rev {
+    flex-direction: column-reverse;
+  }
+
+  .veg-item-section {
+    margin-top: 0rem;
+  }
+
+  .veg-text h3 {
+    font-size: 2rem;
+  }
+
   .flex-container img {
-    max-width: auto; /* Ensures the image scales correctly */
+    max-width: 100%;
     height: auto;
   }
-  
-  .text-content {
-    text-align: left;
-    padding: 20px;
-    margin-left: 20px;
-    opacity: 1; /* Reduces the overall opacity of the text-content */
-    
-  }
-  
-  .text-content p {
-    margin-bottom: 15px;
-    line-height: 1.2;
-    color: #044418; /* Correct property to set text color */
-    font-size: 22px; /* Add 'px' unit for font-size */
-  }
-  
-  
+}
