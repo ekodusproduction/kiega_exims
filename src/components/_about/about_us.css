@@ -1,74 +1,75 @@
-.about-us-top-img img{
-    width:100%;
-    max-height:550px;
+.about-us-top-img img {
+    width: 100%;
+    max-height: 550px;
 }
 
-.about-us-container .heading{
+.about-us-container .heading {
     border: 1px solid #1B1464;
     max-width: 180px;
     background: #1B1464;
     margin-left: 50px;
-    margin-top:50px;
+    margin-top: 50px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 0px 25px 25px 0px;
 }
 
-.about-us-container .heading h4{
+.about-us-container .heading h4 {
     color: #fff;
-    margin-bottom:0px;
-    font-size:20px;
+    margin-bottom: 0px;
+    font-size: 20px;
 }
 
-.about-us-container .about-us-content{
-    margin-left:50px;
-    margin-top:50px;
-    
+.about-us-container .about-us-content {
+    margin-left: 50px;
+    margin-top: 50px;
+
 }
 
-.about-us-container .about-us-content h6{
+.about-us-container .about-us-content h6 {
     font-weight: 600;
-    color:#1B1464;
-    font-size:20px;
-    
-}
-.about-us-container .about-us-content h4{
-    font-weight: 800;
-    color:#1B1464;
-    font-size:26px;
-    
+    color: #1B1464;
+    font-size: 20px;
+
 }
 
-.about-us-container .about-us-content p{
-    color:#1B1464;
-    font-size:16px;
-    margin-right:100px;
+.about-us-container .about-us-content h4 {
+    font-weight: 800;
+    color: #1B1464;
+    font-size: 26px;
+
+}
+
+.about-us-container .about-us-content p {
+    color: #1B1464;
+    font-size: 16px;
+    margin-right: 100px;
     text-align: justify;
-    margin-top:30px;
+    margin-top: 30px;
     font-weight: 500;
 }
 
-.about-us-container .about-us-content .about-us-map{
+.about-us-container .about-us-content .about-us-map {
     text-align: center;
 }
 
-.about-us-container .about-us-content .about-us-map img{
+.about-us-container .about-us-content .about-us-map img {
     width: auto;
     max-height: 550px;
 }
 
-.about-us-container .our-mission-content{
-    margin-left:50px;
-    margin-top:50px;
+.about-us-container .our-mission-content {
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
-.about-us-container .our-mission-content p{
-    color:#1B1464;
-    font-size:16px;
-    margin-right:100px;
+.about-us-container .our-mission-content p {
+    color: #1B1464;
+    font-size: 16px;
+    margin-right: 100px;
     text-align: justify;
-    margin-top:30px;
+    margin-top: 30px;
     font-weight: 600;
 }
 
@@ -77,32 +78,76 @@
     margin-left: 30px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start; /* Align items to the top */
-    justify-content: space-between; /* Ensure space between text and image */
-  }
-  
-  .about-us-container .our-vision-content p {
+    align-items: flex-start;
+    /* Align items to the top */
+    justify-content: center;
+    /* Ensure space between text and image */
+}
+
+.about-us-container .our-vision-content p {
     color: #1B1464;
     font-size: 16px;
     text-align: justify;
     font-weight: 600;
-    flex: 0 0 70%; /* Text takes 70% width */
+    /* Text takes 70% width */
     margin-left: 20px;
-  }
-  
-  .about-us-container .our-vision-content img {
-    max-height: 400px;
-    width: auto;
-    flex: 0 0 30%; /* Image takes 30% width */
-    margin-left: 10px; /* Add some space between text and image */
-  }
-  
+    max-width: 60%;
+}
+
+.about-us-container .our-vision-content img {
+    margin-top: -100px;
+    min-height: 300px;
+    margin-left: 10px;
+    max-width: 90%;
+    /* Add some space between text and image */
+}
 
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     .about-us-map img {
-      max-width: 300px; /* Adjust as needed */
-      max-height: 200px; /* Adjust as needed */
-      object-fit: cover; /* Ensure the image covers the container without distortion */
+        max-width: 100%;
+        /* Adjust as needed */
+        max-height: 200px;
+        /* Adjust as needed */
+        object-fit: cover;
+        margin-left: -18%;
+        /* Ensure the image covers the container without distortion */
     }
-  }
+
+    .about-us-container .our-vision-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        /* Align items to the top */
+        justify-content: center;
+        /* Ensure space between text and image */
+    }
+
+
+    .about-us-container .our-vision-content img {
+        margin-top: 0px;
+        height: 200px;
+        max-width: 95%;
+        object-fit: contain;
+        /* Add some space between text and image */
+    }
+
+    .about-us-container .our-vision-content p {
+        max-width: 90%;
+        margin-left: -10%
+    }
+
+    .about-us-container .heading {
+        margin-left: 0px;
+    }
+
+    .about-us-container .about-us-content p {
+        margin-right: 0px;
+        max-width: 85%;
+    }
+
+    .about-us-container .our-mission-content p {
+        margin-right: 0px;
+        max-width: 85%;
+    }
+
+}

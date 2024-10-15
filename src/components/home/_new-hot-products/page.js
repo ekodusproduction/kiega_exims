@@ -51,7 +51,7 @@ export default function NewHotProducts() {
             <Category dataArr={[
                 {
                     id: 1,
-                    imgsrc: 'assets/SNpage/2.png',
+                    imgsrc: 'assets/SNPage/king-chilly.png',
                     name: "Naga Chili"
                 },
                 {

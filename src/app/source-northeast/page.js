@@ -11,7 +11,7 @@ function SourceNortheastPage() {
         <>
             <section className='sn-hero-image-section'>
                 <Image
-                    src="/assets/SNpage/SN-header.png"
+                    src="/assets/SNPage/SN-header.png"
                     alt="Source page header Image"
                     width={1200}
                     height={800}
@@ -41,7 +41,7 @@ function SourceNortheastPage() {
             <Category dataArr={[
                 {
                     id: 1,
-                    imgsrc: 'assets/SNpage/2.png',
+                    imgsrc: 'assets/SNPage/king-chilly.png',
                     sectionId: 'chilly-section',
                     name: "King Chilli"
 
@@ -49,38 +49,38 @@ function SourceNortheastPage() {
                 },
                 {
                     id: 2,
-                    imgsrc: 'assets/SNpage/3.png',
+                    imgsrc: 'assets/SNPage/3.png',
                     sectionId: 'lemon-section',
                     name: "Kaji Lemon"
-                },  
+                },
 
                 {
                     id: 3,
-                    imgsrc: 'assets/SNpage/4.png',
+                    imgsrc: 'assets/SNPage/4.png',
                     sectionId: 'ginger-section',
                     name: "Ginger"
-                },  
+                },
 
                 {
                     id: 4,
-                    imgsrc: 'assets/SNpage/5.png',
+                    imgsrc: 'assets/SNPage/5.png',
                     sectionId: 'pine-section',
                     name: "Pineapple"
-                },  
+                },
 
                 {
                     id: 5,
-                    imgsrc: 'assets/SNpage/6.png',
+                    imgsrc: 'assets/SNPage/6.png',
                     sectionId: 'turmeric-section',
                     name: "Turmeric"
-                },  
+                },
 
                 {
                     id: 6,
-                    imgsrc: 'assets/SNpage/7.png',
+                    imgsrc: 'assets/SNPage/7.png',
                     sectionId: 'corn-section',
                     name: "Corn"
-                },  
+                },
 
             ]} />
 
@@ -90,7 +90,7 @@ function SourceNortheastPage() {
                 <div id='chilly-section'>
                     <div className='line-box flex-box ali-jus'>
                         <Image
-                            src="/assets/SNpage/line.png"
+                            src="/assets/SNPage/line.png"
                             alt="Separation line"
                             width={800}
                             height={300}
@@ -99,7 +99,7 @@ function SourceNortheastPage() {
                     <div className='grid-box item-details-box'>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/chilly-bg-org.png"
+                                src="/assets/SNPage/chilly-bg-org.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -127,7 +127,7 @@ function SourceNortheastPage() {
                         </div>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/burn-chilly.png"
+                                src="/assets/SNPage/burn-chilly.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -139,7 +139,7 @@ function SourceNortheastPage() {
                 <div id='lemon-section'>
                     <div className='line-box flex-box ali-jus'>
                         <Image
-                            src="/assets/SNpage/line.png"
+                            src="/assets/SNPage/line.png"
                             alt="Separation line"
                             width={800}
                             height={300}
@@ -148,7 +148,7 @@ function SourceNortheastPage() {
                     <div className='grid-box item-details-box'>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/lemon-bg-org.png"
+                                src="/assets/SNPage/lemon-bg-org.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -181,7 +181,7 @@ function SourceNortheastPage() {
                         </div>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/lemon-character.png"
+                                src="/assets/SNPage/lemon-character.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -192,7 +192,7 @@ function SourceNortheastPage() {
                     <div className='grid-box item-details-box'>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/10.png"
+                                src="/assets/SNPage/10.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -232,7 +232,7 @@ function SourceNortheastPage() {
                 <div id='ginger-section'>
                     <div className='line-box flex-box ali-jus'>
                         <Image
-                            src="/assets/SNpage/line.png"
+                            src="/assets/SNPage/line.png"
                             alt="Separation line"
                             width={800}
                             height={300}
@@ -241,7 +241,7 @@ function SourceNortheastPage() {
                     <div className='grid-box item-details-box'>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/ginger-bg-org.png"
+                                src="/assets/SNPage/ginger-bg-org.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -266,7 +266,7 @@ function SourceNortheastPage() {
                         </div>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/ginger-character.png"
+                                src="/assets/SNPage/ginger-character.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -277,7 +277,7 @@ function SourceNortheastPage() {
                     <div className='grid-box item-details-box'>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/ginger-farming.png"
+                                src="/assets/SNPage/ginger-farming.png"
                                 alt="Ginger Farming Image"
                                 width={400}
                                 height={400}
@@ -303,7 +303,7 @@ function SourceNortheastPage() {
                         </div>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/ginger-export.png"
+                                src="/assets/SNPage/ginger-export.png"
                                 alt="Ginger export image"
                                 width={400}
                                 height={400}
@@ -315,7 +315,7 @@ function SourceNortheastPage() {
                 <div id='pine-section'>
                     <div className='line-box flex-box ali-jus'>
                         <Image
-                            src="/assets/SNpage/line.png"
+                            src="/assets/SNPage/line.png"
                             alt="Separation line"
                             width={800}
                             height={300}
@@ -324,7 +324,7 @@ function SourceNortheastPage() {
                     <div className='grid-box item-details-box'>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/pine-bg-org.png"
+                                src="/assets/SNPage/pine-bg-org.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -352,7 +352,7 @@ function SourceNortheastPage() {
                         </div>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/pine-character.png"
+                                src="/assets/SNPage/pine-character.png"
                                 alt="Pineapple character image"
                                 width={400}
                                 height={400}
@@ -364,7 +364,7 @@ function SourceNortheastPage() {
                 <div id='turmeric-section'>
                     <div className='line-box flex-box ali-jus'>
                         <Image
-                            src="/assets/SNpage/line.png"
+                            src="/assets/SNPage/line.png"
                             alt="Separation line"
                             width={800}
                             height={300}
@@ -373,7 +373,7 @@ function SourceNortheastPage() {
                     <div className='grid-box item-details-box'>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/turmeric-bg-org.png"
+                                src="/assets/SNPage/turmeric-bg-org.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -401,7 +401,7 @@ function SourceNortheastPage() {
                         </div>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/turmeric-vary.png"
+                                src="/assets/SNPage/turmeric-vary.png"
                                 alt="Turmeric variety image"
                                 width={400}
                                 height={400}
@@ -412,7 +412,7 @@ function SourceNortheastPage() {
                     <div className='grid-box item-details-box'>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/turmeric-character.png"
+                                src="/assets/SNPage/turmeric-character.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -440,7 +440,7 @@ function SourceNortheastPage() {
                 <div id='corn-section'>
                     <div className='line-box flex-box ali-jus'>
                         <Image
-                            src="/assets/SNpage/line.png"
+                            src="/assets/SNPage/line.png"
                             alt="Separation line"
                             width={800}
                             height={300}
@@ -449,7 +449,7 @@ function SourceNortheastPage() {
                     <div className='grid-box item-details-box'>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/corn-bg-org.png"
+                                src="/assets/SNPage/corn-bg-org.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
@@ -470,11 +470,43 @@ function SourceNortheastPage() {
                         </div>
                         <div className='item-image flex-box ali-jus'>
                             <Image
-                                src="/assets/SNpage/maize-2nd.png"
+                                src="/assets/SNPage/maize-2nd.png"
                                 alt="King Chilly Image"
                                 width={400}
                                 height={400}
                             />
+                        </div>
+                    </div>
+                </div>
+
+                {/* global market section */}
+
+                <div id='corn-section'>
+                    <div className='line-box flex-box ali-jus'>
+                        <Image
+                            src="/assets/SNPage/line.png"
+                            alt="Separation line"
+                            width={800}
+                            height={300}
+                        />
+                    </div>
+
+                    <div className='grid-box item-details-box'>
+                        <div className='item-image flex-box ali-jus'>
+                            <Image
+                                src="/assets/SNPage/17.png"
+                                alt="King Chilly Image"
+                                width={400}
+                                height={400}
+                            />
+                        </div>
+                        <div className='item-detail-text flex-box ali-jus para flex-col'>
+                            <h3 className="courgette-regular">Global Market Reach</h3>
+                            <p>
+                                <strong>Kiega Exims</strong> is at the forefront of connecting the world to the pristine horticultural products of <strong>North-East India</strong>. Our produce, cultivated with care and adherence to international standards, is carefully harvested and prepared for export, ensuring that the unique flavors and nutritional benefits of the region reach global consumers in the freshest possible condition.
+                                With the natural abundance of <strong>North-East India</strong> and our commitment to nurturing local farmers, we bring the best of this rich horticultural heritage to your table.
+                            </p>
+
                         </div>
                     </div>
                 </div>
