@@ -5,8 +5,7 @@ import "./utility.css"
 import Footer from "@/components/_footer/page";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import '@fortawesome/fontawesome-svg-core/styles.css';
-
-const HeaderMain = require('@/components/header_/page')
+import HeaderMain from "@/components/header_/page";
 
 
 
