@@ -3,16 +3,10 @@ import dynamic from 'next/dynamic'
 import "./globals.css";
 import "./utility.css"
 import Footer from "@/components/_footer/page";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import BootstrapConfig from "@/components/_bootstrap_config/page";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import '@fortawesome/fontawesome-svg-core/styles.css';
-import BootStrap from "@/components/bootStrap";
 
-const HeaderMain = dynamic(
-  () => import('@/components/header_/page'),
-  { ssr: false }
-)
+const HeaderMain = require('@/components/header_/page')
 
 
 
