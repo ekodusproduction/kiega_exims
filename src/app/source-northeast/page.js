@@ -26,7 +26,7 @@ function SourceNortheastPage() {
                 </div>
                 <div className=''>
                     <Image
-                        src="/assets/SNpage/sn-map.png"
+                        src="/assets/SNPage/sn-map.png"
                         alt="Source page heade Image"
                         width={500}
                         height={500}
