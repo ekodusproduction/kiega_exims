@@ -21,7 +21,13 @@
   width: auto;
   object-fit: contain;
 }
+.mt5 {
+  margin-top: -5rem;
+}
 @media (max-width: 767px) {
+  .mt5 {
+      margin-top: -2rem;
+    }
   .new-product {
     flex-direction: column;
     align-items: center;
@@ -38,6 +44,7 @@
 
   .new-product img {
     margin-bottom: 10px; /* Space between images */
+    
   }
 }
 
@@ -50,7 +57,7 @@
   }
 
   .new-product img {
-    height: 200px; /* Adjust height for mobile */
+    height: 250px; /* Adjust height for mobile */
     width: auto; /* Maintain aspect ratio */
     padding: 10px; /* Add padding around images */
   }

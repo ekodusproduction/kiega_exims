@@ -9,6 +9,7 @@
 .containerofriceandcorn img {
   height: auto;
   border-radius: 8px;
+  max-width: 100%;
 }
 
 .text-content {

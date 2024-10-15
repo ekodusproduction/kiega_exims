@@ -2,8 +2,8 @@ import "./new-updates-products.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function NewUpdatesProducts() {
-  return (
-    <div className="container">
+  return ( 
+    <div className="container mt5">
       <div className="row justify-content-center text-center my-1">
         <div className="col-md-8">
           <div className="text-style">
@@ -12,8 +12,8 @@ export default function NewUpdatesProducts() {
         </div>
       </div>
       <div className="row justify-content-center">
-        <div className="col-md-12 d-flex justify-content-center">
-          <div className="new-product d-flex flex-row justify-content-around">
+        <div className="justify-content-center">
+          <div className="new-product">
             <div className="image-container">
               <img
                 src="/assets/arunachal.png"
@@ -68,7 +68,7 @@ export default function NewUpdatesProducts() {
 
         <div className="row justify-content-center">
           <div className="col-md-12 d-flex justify-content-center">
-            <div className="new-product d-flex flex-row justify-content-around">
+            <div className="new-product">
               <div className="image-container">
                 <img
                   src="/assets/organic-pineapple.png"

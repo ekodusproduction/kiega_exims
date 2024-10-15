@@ -1,5 +1,5 @@
 import { Inter } from "next/font/google";
-import dynamic from 'next/dynamic'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./globals.css";
 import "./utility.css"
 import Footer from "@/components/_footer/page";

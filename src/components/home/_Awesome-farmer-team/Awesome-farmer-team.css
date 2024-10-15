@@ -77,11 +77,12 @@
    }
 
   .artboard-item {
-    width: 90%;  
+    width: 90%; 
+    max-height: 350px; 
    }
 
   .green-border {
-    width: 100%;
+    width: 96%;
     height: auto;  
   }
 
