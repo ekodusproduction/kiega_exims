@@ -1,6 +1,113 @@
 /* fruit.css */
 
 /* Base styles for desktop */
+.style-textbox {
+  margin-left: 2rem;
+  padding: 3rem;
+  box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.2);
+  max-width: 95%;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.image-box {
+  max-width: 95%;
+  margin-left: 2rem;
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+.bullet {
+  position: relative;
+  padding-left: 20px;
+}
+
+.pine {
+  background-color: #cbf3a3;
+}
+
+.pine p,
+.pine strong {
+  color: #0c5819;
+}
+
+.pine .bullet::before {
+  background-color: #0c5819;
+}
+
+
+.kiwi {
+  background-color: #defaa1;
+}
+
+.kiwi p,
+.kiwi strong {
+  color: #485524;
+}
+
+.kiwi .bullet::before {
+  background-color: #485524;
+}
+
+
+.litchi {
+  background-color: #ffe3d5;
+}
+
+.litchi p,
+.litchi strong,
+.litchi h5 {
+  color: #75090d;
+}
+
+.litchi .bullet::before {
+  background-color: #75090d;
+}
+
+
+.mango {
+  background-color: #f5e9a6;
+}
+
+.mango p,
+.mango strong {
+  color: #a06104;
+}
+
+.mango .bullet::before {
+  background-color: #a06104;
+}
+
+.jack {
+  background-color: #daf1c1;
+}
+
+.jack p,
+.jack strong {
+  color: #2a3f1d;
+}
+
+.jack .bullet::before {
+  background-color: #2a3f1d;
+}
+
+
+
+
+
+.bullet::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 12%;
+  width: 12px;
+  height: 12px;
+  background-color: #0f721f;
+  border-radius: 50%;
+}
+
 .fruit-container {
   padding: 20px;
 }
@@ -112,7 +219,7 @@
 /* Mobile view adjustments */
 @media (max-width: 768px) {
   .res-hidden {
-      display: none;
+    display: none;
   }
 
   .fruit-container {
@@ -125,6 +232,20 @@
 
   .fruit-container img {
     width: 100%;
+  }
+
+  .style-textbox {
+    margin-left: 0;
+  }
+
+  .image-box {
+    max-width: 95%;
+    margin-left: 0rem;
+  }
+
+
+  .bullet::before {
+    top: 3%;
   }
 
   .pineapple-section .image-wrapper,

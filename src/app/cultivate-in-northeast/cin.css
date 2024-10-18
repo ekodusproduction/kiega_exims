@@ -1,10 +1,10 @@
 .para p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: rgb(3, 80, 3);
     max-width: 90%;
     margin-inline: 2rem;
-    line-height: 2.8rem;
+    line-height: 2rem;
 }
 
 .desc-down {
@@ -12,7 +12,8 @@
 }
 
 .h3 {
-    font-weight: 700;
+    font-size: 22px;
+    font-weight: 600;
     color: rgb(3, 80, 3);
 
 }
@@ -20,13 +21,13 @@
 
 .cin-section {
     width: 100%;
-    min-height: 100vh;
+    min-height: max-content;
 }
 
 
 .cin-hero-img {
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 
@@ -48,6 +49,26 @@
     width: 100%;
 }
 
+
+.round-box {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(40, 126, 61);
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px 15px rgb(174, 216, 111);
+    overflow: hidden;
+    margin-top: -8rem;
+    margin-left: 2rem;
+}
+
+.round-box img{
+   position: absolute;
+   left: 0;
+   width: 85%;
+   border-radius: 43%;   
+}
+
 .cin-desc .desc-img img {
     width: 99%;
     height: 34rem;
@@ -55,10 +76,10 @@
 
 
 .list-items li {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: rgb(3, 80, 3);
-    line-height: 2.8rem;
+    line-height: 2rem;
 }
 
 
@@ -66,6 +87,7 @@
     .res-flex {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .res-col-rev {
@@ -92,13 +114,24 @@
         height: auto;
     }
 
+    .round-box  {
+        width: 250px;
+        height: 250px;
+        margin-block: 2rem;
+        margin-left: 0rem;
+    }
+
+    .round-box img {
+        object-fit: contain;
+    }
+
     .cin-desc .desc-img img {
         height: auto;
     }
 
     .h3 {
         margin-inline: 2rem;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .list-items li {

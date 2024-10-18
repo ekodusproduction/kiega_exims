@@ -14,7 +14,7 @@ function SourceNortheastPage() {
                     src="/assets/SNPage/SN-header.png"
                     alt="Source page header Image"
                     width={1200}
-                    height={800}
+                    height={900}
                 />
             </section>
 

@@ -35,7 +35,7 @@ function CultivateInNortheast() {
                 </div>
 
                 <div className='grid-box res-flex cin-desc'>
-                    <div className='desc-img flex-box ali-jus extra-img'>
+                    <div className='round-box flex-box ali-jus'>
                         <Image
                             src='/assets/CINPage/21.png'
                             alt='Cultivate in northeast Image'

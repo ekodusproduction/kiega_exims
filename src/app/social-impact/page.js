@@ -9,7 +9,7 @@ function SocialImpact() {
                     src='/assets/SIPage/social-impact-hero.png'
                     alt='Social Imapact header Image'
                     height={800}
-                    width={1000}
+                    width={1200}
                 />
             </section>
 

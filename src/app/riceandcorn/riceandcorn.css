@@ -2,14 +2,31 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #af8748;
+  background: linear-gradient(to right, #422709, #8f684d);
   width: 100%;
+}
+/* FFD700 */
+
+.img-circle {
+  background-color: #9C7434;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 420px;
+  height: 420px;
+  margin-top: 3rem;
+  box-shadow: 0px 0px 20px 0px #9e7a60;
+  margin-left: 2rem;
 }
 
 .containerofriceandcorn img {
   height: auto;
-  border-radius: 8px;
   max-width: 100%;
+}
+
+.mr2 {
+  margin-right: 2rem;
 }
 
 .text-content {
@@ -27,6 +44,12 @@
   max-width: 700px;
 }
 
+.text-content p {
+  color: #f7f0c8;
+  text-align: justify;
+  font-size: 17px;
+}
+
 .text-content strong {
   font-weight: bold;
 }
@@ -34,7 +57,7 @@
 .ending {
   width: 100%;
   height: 20rem;
-  background-color: #af8748;
+  background: linear-gradient(to right, #422709, #8f684d);
   position: absolute;
 }
 
@@ -43,6 +66,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .mr2 {
+    margin-right: 0rem;
+  }
+
+  .img-circle {
+    width: 250px;
+    height: 250px;
+    margin-top: 3rem;
+    margin-left: 0rem;
+  }
+  
+  .containerofriceandcorn img {
+    height: 85%;
+    max-width: 85%;
   }
 
   .res-col-rev {
@@ -56,5 +95,6 @@
   .text-content p {
     margin-inline: 1.2rem;
     font-size: 16px;
+    margin-top: 1.5rem;
   }
 }

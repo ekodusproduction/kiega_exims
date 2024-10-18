@@ -13,8 +13,8 @@ export default function RiceandCorn() {
       </div>
 
       <div className="containerofriceandcorn">
-        <div>
-          <img src="/assets/aromajoharice.png" alt="fruits header image" />
+          <div className='img-circle'>
+            <img src="/assets/RCPage/aromajoharice.png" alt="fruits header image" />
         </div>
         <div className="text-content">
           <p>
@@ -57,14 +57,14 @@ export default function RiceandCorn() {
             <strong>cows, pigs, chickens, dogs, cats, and guinea pigs.</strong>
           </p>
         </div>
-        <div>
-          <img src="/assets/organiccorn.png" alt="fruits header image" />
+        <div className='img-circle'>
+            <img src="/assets/RCPage/organiccorn.png" alt="fruits header image" />
         </div>
       </div>
 
       <div className="containerofriceandcorn">
-        <div>
-          <img src="/assets/organicredrice.png" alt="fruits header image" />
+        <div className='img-circle'>
+            <img src="/assets/RCPage/organicredrice.png" alt="fruits header image" />
         </div>
         <div className="text-content">
           <p>
@@ -116,8 +116,8 @@ export default function RiceandCorn() {
             the body.
           </p>
         </div>
-        <div>
-          <img src="/assets/organicblackrice.png" alt="fruits header image" />
+        <div className='img-circle mr2'>
+            <img src="/assets/RCPage/organicblackrice.png" alt="fruits header image" />
         </div>
         </div>   
     </div>

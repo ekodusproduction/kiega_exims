@@ -23,8 +23,7 @@ export default function Header() {
                 <i className="bx bx-menu"></i>
               </a>
               <ul className="dropdown-menu">
-                <li>
-                   
+                <li>                   
                   <Link href="/riceandcorn" className="dropdown-item">
                   Rice and Corn
                   </Link>

@@ -23,12 +23,18 @@
     justify-content: center; /* Center horizontally */
     align-items: center;
     margin: 50px auto; /* Center container horizontally and add top and bottom margins */
-    max-width: 1000px; /* Adjusted max-width to accommodate more space if needed */
+    max-width: 100%;
+    flex-wrap: wrap; /* Adjusted max-width to accommodate more space if needed */
 }
 
 .what-we-offer-container .category-cards-container .catergory-card {
     position: relative;
     margin: 0 10px; /* Space between cards */
+    transition: transform 0.3s ease;
+}
+
+.catergory-card:hover {
+    transform: scale(1.1)
 }
 
 .what-we-offer-container .category-cards-container .catergory-card img {

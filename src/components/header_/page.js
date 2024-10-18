@@ -27,20 +27,20 @@ function HeaderMain() {
                             <Link href="/" className="dropdown-item" onClick={toggleMenu}>
                                 Home
                             </Link>
-                        </li>
-                        <li>
-                            <Link href="/riceandcorn" className="dropdown-item" onClick={toggleMenu}>
-                                Rice and Corn
-                            </Link>
-                        </li>
+                        </li>                        
                         <li>
                             <Link href="/fruit" className="dropdown-item" onClick={toggleMenu}>
-                                Organic Fruits
+                                Fruits
                             </Link>
                         </li>
                         <li>
                             <Link href="/vegetable" className="dropdown-item" onClick={toggleMenu}>
-                                Organic Vegatables
+                                Vegatables
+                            </Link>
+                        </li>
+                        <li>
+                            <Link href="/riceandcorn" className="dropdown-item" onClick={toggleMenu}>
+                                Rice and Corn
                             </Link>
                         </li>
                         <li>

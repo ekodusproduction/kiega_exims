@@ -1,10 +1,10 @@
 .para p {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     color: rgb(3, 80, 3);
     max-width: 80%;
     margin-inline: 2rem;
-    line-height: 2.8rem;
+    line-height: 2rem;
 }
 
 .flex-col {
@@ -13,12 +13,12 @@
 
 .sn-hero-image-section {
     width: 100%;
-    height: 100vh;
+    height: max-content;
 }
 
 .sn-hero-image-section img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .sn-hero-content img {
@@ -56,28 +56,6 @@
 }
 
 /* category css */
-
-.sn-category {
-    width: 100%;
-    min-height: 100vh;
-    max-height: fit-content;
-    margin-top: 2.5rem;
-}
-
-.sn-items {
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 5rem;
-    row-gap: 4rem;
-    margin-inline: 3rem;
-    background-color: #fff;
-}
-
-.sn-item-per {
-    flex-direction: column;
-    border-radius: 90px 90px 0 90px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
-    min-height: 20rem
-}
 
 .item-details-section {
     width: 100%;
