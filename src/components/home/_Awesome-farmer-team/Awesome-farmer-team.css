@@ -21,6 +21,7 @@
 .artboard-images-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin: 20px auto;
@@ -70,11 +71,6 @@
     font-size: 18px; /* Adjust font size for mobile */
     margin-top: 100px; /* Adjust margin-top for mobile */
   }
-
-  .artboard-images-container {
-    flex-direction: column;  
-    align-items: center;
-   }
 
   .artboard-item {
     width: 90%; 

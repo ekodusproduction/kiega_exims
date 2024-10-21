@@ -15,6 +15,7 @@
   flex-direction: row;
   justify-content: space-around;
 }
+
 .farming-organic-container .content-area .farming-girl-img-container {
   width: 100%;
   height: 100%;
@@ -34,6 +35,7 @@
 .farming-organic-container .content-area .text-button-area h4 {
   color: #238009;
 }
+
 .farming-organic-container .content-area .text-button-area h2 {
   color: #1f1764;
   font-size: 58px;
@@ -46,11 +48,8 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.farming-organic-container
-  .content-area
-  .text-button-area
-  .button-groups
-  .natural {
+
+.farming-organic-container .content-area .text-button-area .button-groups .natural {
   margin-right: 30px;
   background: #070044;
   color: white;
@@ -63,11 +62,7 @@
   align-items: center;
 }
 
-.farming-organic-container
-  .content-area
-  .text-button-area
-  .button-groups
-  .organic {
+.farming-organic-container .content-area .text-button-area .button-groups .organic {
   background: #068b03;
   color: white;
   font-size: 15px;
@@ -117,31 +112,35 @@
   margin-top: 10px;
   margin-left: 20px;
 }
+
 .farming-organic-container .farming-organic-top-design {
   position: absolute;
   top: 0%;
   left: 35%;
 }
+
 .farming-organic-container .farming-organic-top-design img {
   max-width: 220px;
   opacity: 0.9;
 }
 
 /* Mobile view adjustments */
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .farming-organic-container {
     position: relative;
     padding: 20px;
   }
 
   .farming-organic-container .background img {
-    max-height: 300px; /* Adjust height for mobile */
+    max-height: 300px;
+    /* Adjust height for mobile */
     width: 100%;
     object-fit: cover;
   }
 
   .farming-organic-container .content-area {
-    position: static; /* Remove absolute positioning */
+    position: static;
+    /* Remove absolute positioning */
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -154,7 +153,8 @@
   }
 
   .farming-organic-container .content-area .farming-girl-img-container img {
-    max-width: 100%; /* Adjust image width for mobile */
+    max-width: 100%;
+    /* Adjust image width for mobile */
     height: auto;
   }
 
@@ -164,12 +164,14 @@
 
   .farming-organic-container .content-area .text-button-area h4 {
     color: #238009;
-    font-size: 20px; /* Adjust font size for mobile */
+    font-size: 20px;
+    /* Adjust font size for mobile */
   }
 
   .farming-organic-container .content-area .text-button-area h2 {
     color: #1f1764;
-    font-size: 24px; /* Adjust font size for mobile */
+    font-size: 24px;
+    /* Adjust font size for mobile */
   }
 
   .farming-organic-container .content-area .text-button-area .button-groups {
@@ -177,28 +179,24 @@
     flex-direction: column;
   }
 
-  .farming-organic-container
-    .content-area
-    .text-button-area
-    .button-groups
-    .natural,
-  .farming-organic-container
-    .content-area
-    .text-button-area
-    .button-groups
-    .organic {
-    margin: 10px 0; /* Adjust margins for mobile */
+  .farming-organic-container .content-area .text-button-area .button-groups .natural,
+  .farming-organic-container .content-area .text-button-area .button-groups .organic {
+    margin: 10px 0;
+    /* Adjust margins for mobile */
     width: 100%;
   }
 
   .farming-organic-container .content-area .text-button-area h5,
   .farming-organic-container .content-area .text-button-area p {
-    display: none; /* Hide additional text content on mobile */
+    display: none;
+    /* Hide additional text content on mobile */
   }
 
   .farming-organic-container .farming-organic-footer {
-    position: static; /* Remove absolute positioning */
-    height: auto; /* Adjust height for mobile */
+    position: static;
+    /* Remove absolute positioning */
+    height: auto;
+    /* Adjust height for mobile */
     margin-top: 20px;
     background: #204f23;
     flex-direction: column;
@@ -208,16 +206,28 @@
   }
 
   .farming-organic-container .farming-organic-footer img {
-    max-height: 50px; /* Adjust image height for mobile */
+    max-height: 50px;
+    /* Adjust image height for mobile */
     margin-left: 0;
   }
 
   .farming-organic-container .farming-organic-footer h4 {
-    font-size: 16px; /* Adjust font size for mobile */
+    font-size: 16px;
+    /* Adjust font size for mobile */
     margin-left: 0;
   }
 
   .farming-organic-container .farming-organic-top-design {
-    display: none; /* Hide the top design image on mobile */
+    display: none;
+    /* Hide the top design image on mobile */
   }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .farming-organic-container .content-area .farming-girl-img-container img {
+    max-width: 70%;
+    height: auto;
+  }
+
 }

@@ -8,7 +8,7 @@
   left: 0;
   width: 100%;
   height: auto;
-  z-index: -1; /* Ensure the background image is behind other content */
+  z-index: -1;
 }
 
 .organic-farming-container .background-image img {
@@ -18,7 +18,7 @@
 }
 
 .organic-farming-container .content-area {
-  position: relative; /* Default positioning for desktop */
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -85,16 +85,16 @@
 }
 
 /* Mobile view adjustments */
-@media (max-width: 767px) {
+@media (max-width: 760px) {
   .organic-farming-container .background-image {
-    position: absolute; /* Ensure background is behind content on mobile */
+    position: absolute;
   }
 
   .organic-farming-container .content-area {
-    position: relative; /* Make content-area relative for mobile view */
+    position: relative;
     flex-direction: column;
     align-items: center;
-    padding: 20px; /* Add padding for better spacing on mobile */
+    padding: 20px;
   }
 
   .organic-farming-container .content-area .image-container {
@@ -103,33 +103,44 @@
   }
 
   .organic-farming-container .content-area .farming-girl-image-container {
-    max-width: 90%; /* Adjust width to fit mobile view */
-    margin-top: 20px; /* Adjust margin for mobile */
+    max-width: 90%;
+    margin-top: 20px;
   }
 
   .organic-farming-container .content-area .farming-girl-container {
-    margin-left: 0; /* Remove left margin on mobile */
-    margin-top: 20px; /* Adjust margin for mobile */
+    margin-left: 0;
+    margin-top: 20px;
   }
 
   .organic-farming-container .content-area .farming-girl-container img {
-    max-width: 100%; /* Make the image responsive */
-    margin-top:150px; /* Remove top margin */
+    max-width: 100%;
+    margin-top: 150px;
   }
 
   .organic-farming-container .content-area .text-header {
-    text-align: center; /* Center text on mobile */
-    margin-left: 10px; /* Remove left margin */
+    text-align: center;
+    margin-left: 10px;
   }
 
   .organic-farming-container .content-area .text-header span {
     font-size: 5.4vw;
-      /* Adjust font size for mobile */
-    margin-left: 0; /* Remove left margin */
+    margin-left: 0;
   }
 
   .organic-farming-container .content-area .text-header i {
-    font-size: 14px; /* Adjust font size for mobile */
-    margin-left: 0; /* Remove left margin */
+    font-size: 14px;
+    margin-left: 0;
   }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .organic-farming-container .content-area .farming-girl-container img {
+    margin-top: 18%;
+    max-width: 300px;
+  }
+
+  .organic-farming-container .content-area .text-header span {
+    font-size: 23px;
+  }
+
 }

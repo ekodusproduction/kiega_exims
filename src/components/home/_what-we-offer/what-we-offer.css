@@ -44,26 +44,26 @@
 
 .what-we-offer-container .category-cards-container .catergory-card .header-img-1 {
     position: absolute;
-    top: 8.5%;
-    left: 11%;
+    top: 2%;
+    left: 1%;
 }
 
 .what-we-offer-container .category-cards-container .catergory-card .header-img-2 {
     position: absolute;
-    top: 8.5%;
-    left: 14%;
+    top: 4%;
+    left: 6%;
 }
 
 .what-we-offer-container .category-cards-container .catergory-card .header-img-3 {
     position: absolute;
-    top: 8.5%;
-    left: 17%;
+    top: 5%;
+    left: 6%;
 }
 
 .what-we-offer-container .category-cards-container .catergory-card .header-img-4 {
     position: absolute;
-    top: 8.5%;
-    left: 20%;
+    top: 7%;
+    left: 10%;
 }
 
 .what-we-offer-container .category-cards-container .catergory-card .header-img-1 img,
@@ -109,7 +109,7 @@
 .what-we-offer-container .category-cards-container .catergory-card .card-content {
     position: absolute;
     top: 65%;
-    left: 55%; /* Center horizontally in the parent */
+    left: 50%; /* Center horizontally in the parent */
     transform: translateX(-50%); /* Adjust the container position to center it */
     display: flex;
     flex-direction: column; /* Stack children vertically */
@@ -138,6 +138,8 @@
     .what-we-offer-container .category-cards-container .catergory-card {
       margin-bottom: 20px;
       width: 80%;
+      margin-left: 10%;
+      position: relative;
     }
   
     .what-we-offer-container .category-cards-container .catergory-card img {

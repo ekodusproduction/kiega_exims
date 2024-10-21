@@ -49,13 +49,14 @@
   from {
     transform: translateY(0px);
   }
+
   to {
     transform: translateY(-20px);
   }
 }
 
 /* Responsive styling */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
   .banner-container {
     flex-direction: column;
     height: auto;
@@ -97,5 +98,12 @@
   .floating-banner-fruits .mango-img img,
   .floating-banner-fruits .lemon-img img {
     max-height: 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner-container {
+    flex-direction: column;
+    height: max-content;
   }
 }
